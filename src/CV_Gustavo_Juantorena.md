@@ -1,4 +1,4 @@
-# Gustavo Ezequiel Juantorena
+# Gonzalo Díaz Amor
 **Data Scientist | Machine Learning Researcher | Neurocientífico Computacional**
 
 gjuantorena@gmail.com | [LinkedIn](https://www.linkedin.com/in/gustavo-juantorena/) | [GitHub](https://github.com/GEJ1) | [Website](https://gustavojuantorena.com/) | [Google Scholar](https://scholar.google.com/citations?user=gcAKY2IAAAAJ&hl=en)
