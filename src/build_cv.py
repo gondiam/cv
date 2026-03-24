@@ -6,8 +6,8 @@ import os
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(SRC_DIR, "cv_data.yaml")
 TEMPLATE_FILE = "cv_template.md.j2"
-OUT_ES = os.path.join(SRC_DIR, "CV_Gustavo_Juantorena.md")
-OUT_EN = os.path.join(SRC_DIR, "english", "CV_Gustavo_Juantorena_EN.md")
+OUT_ES = os.path.join(SRC_DIR, "CV_Gonzalo_DiazAmor.md")
+OUT_EN = os.path.join(SRC_DIR, "english", "CV_Gonzalo_DiazAmor_EN.md")
 
 def build_cvs():
     # Load YAML data
@@ -26,7 +26,7 @@ def build_cvs():
 
     # Render English CV
     md_en = template.render(lang="en", **data)
-    # Ensure english dir exists (it does, but good practice)
+    # Ensure english dir exists
     os.makedirs(os.path.dirname(OUT_EN), exist_ok=True)
     with open(OUT_EN, "w", encoding="utf-8") as f:
         f.write(md_en)

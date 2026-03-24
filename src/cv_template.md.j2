@@ -1,7 +1,8 @@
 # {{ contact.name }}
 **{{ titles[lang] }}**
 
-{{ contact.email }} | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Website]({{ contact.website }}) | [Google Scholar]({{ contact.scholar }})
+[Email](mailto:{{ contact.email }}) | [Teléfono](tel:{{ contact.phone }}) | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Portfolio]({{ contact.website }})
+
 
 ---
 
@@ -20,15 +21,15 @@
 {% for hl in job.highlights[lang] %}
 *   {{ hl }}
 {% endfor %}
-
 {% endfor %}
+
 ---
 
 ## {{ headers.education[lang] }}
 
 {% for edu in education.primary %}
 *   {{ edu.title[lang] }}
-    * {{ edu.description[lang] }}
+    *   {{ edu.description[lang] }}
 {% endfor %}
 
 {{ education.additional_header[lang] }}
@@ -37,20 +38,13 @@
 *   {{ edu[lang] }}
 {% endfor %}
 
-{{ education.mentorship_header[lang] }}
-
-{% for mentor in education.mentorship %}
-*   {{ mentor[lang] }}
-{% endfor %}
-
 ---
 
-## {{ headers.publications[lang] }}
+## {{ headers.certifications[lang] }}
 
-{{ publications_header[lang] }}
-
-{% for pub in publications %}
-{{ loop.index }}.  {{ pub[lang] }}
+{% for cert in certifications %}
+*   **{{ cert.title[lang] }}** — {{ cert.issuer }} *({{ cert.year }})*
+    *   {{ cert.description[lang] }}
 {% endfor %}
 
 ---
@@ -62,4 +56,5 @@
 {% endfor %}
 
 ---
+
 *{{ contact.location[lang] }}*

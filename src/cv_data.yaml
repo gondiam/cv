@@ -1,17 +1,17 @@
 contact:
   name: "Gonzalo Díaz Amor"
-  email: "gjuantorena@gmail.com"
-  linkedin: "https://www.linkedin.com/in/gustavo-juantorena/"
-  github: "https://github.com/GEJ1"
-  website: "https://gustavojuantorena.com/"
-  scholar: "https://scholar.google.com/citations?user=gcAKY2IAAAAJ&hl=en"
-  location: 
-    en: "Buenos Aires, Argentina | Available for relocation/remote work pending convenience."
-    es: "Buenos Aires, Argentina | Disponibilidad para relocalización/remoto según conveniencia."
+  email: "gdiazamor.ds@gmail.com"
+  phone: "+34693299747"
+  linkedin: "https://www.linkedin.com/in/gdiazamor/"
+  github: "https://github.com/gondiam"
+  website: "https://gondiam.github.io/Gonzalo_Portfolio"
+  location:
+    en: "Palencia, Spain | Available for relocation/remote work."
+    es: "Palencia, España | Disponibilidad para relocalización/remoto."
 
 titles:
-  en: "Data Scientist | Machine Learning Researcher | Computational Neuroscientist"
-  es: "Data Scientist | Machine Learning Researcher | Neurocientífico Computacional"
+  en: "Data Scientist | GenAI & MLOps Specialist | LLM & RAG Engineer"
+  es: "Data Scientist | Especialista GenAI & MLOps | Ingeniero LLM & RAG"
 
 headers:
   profile:
@@ -23,197 +23,275 @@ headers:
   education:
     en: "Education"
     es: "Educación"
-  publications:
-    en: "Selected Scientific Production"
-    es: "Producción Científica Seleccionada"
+  certifications:
+    en: "Certifications"
+    es: "Certificaciones"
   skills:
     en: "Technical Skills"
     es: "Habilidades Técnicas"
 
 profile:
-  en: "Interdisciplinary Data Scientist and Neuroscientist, currently in the final stage of a Ph.D. in Computer Science (University of Buenos Aires). Specialized in **behavioral analysis, eye-tracking, and Machine Learning applied to computational psychiatry**. My experience ranges from predictive modeling and advanced processing of psychophysiological signals and trajectories to Open Source software development. Passionate about translating complex human behavior problems into data-driven solutions, communicating them effectively, and building valuable, scalable software products."
-  es: "Data Scientist y Neurocientífico con enfoque interdisciplinario, cursando la etapa final del Doctorado en Ciencias de la Computación (UBA). Especializado en **análisis de comportamiento, eye-tracking y Machine Learning aplicados a la psiquiatría computacional**. Mi experiencia abarca desde el modelado predictivo y procesamiento avanzado de señales psicofisiológicas y trayectorias hasta el desarrollo de herramientas Open Source. Apasionado por traducir problemas complejos del comportamiento humano en soluciones basadas en datos, comunicarlas efectivamente y crear productos de software útiles y escalables."
+  en: "GenAI-oriented Data Scientist with hands-on experience developing ML and AI pipelines in Python, building APIs, automating data workflows, and deploying models in cloud environments. Skilled in **LLM-based architectures, embeddings, RAG pipelines, and prompt engineering**, with practical exposure to Azure, LangChain, and model operationalization. Proficient in Python, R, SQL, and cloud-based data engineering, with a proven ability to develop and implement predictive models and optimize business processes. Strong collaborative spirit and committed to continuous learning, staying at the forefront of the rapidly evolving field of data science."
+  es: "Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de pipelines de ML e IA en Python, construcción de APIs, automatización de flujos de datos y despliegue de modelos en entornos cloud. Especializado en **arquitecturas basadas en LLMs, embeddings, pipelines RAG e ingeniería de prompts**, con exposición práctica a Azure, LangChain y operacionalización de modelos. Competente en Python, R, SQL e ingeniería de datos en la nube, con capacidad demostrada para desarrollar modelos predictivos y optimizar procesos de negocio."
 
 experience:
-  - id: "graduate_researcher"
+  - id: "aiengineer_beway"
     title:
-      en: "Graduate Researcher (Ph.D. Candidate in Computer Science)"
-      es: "Investigador en Formación (Doctorando en Ciencias de la Computación)"
+      en: "AI/ML Research Engineer"
+      es: "Ingeniero de Investigación en IA/ML"
     company:
-      en: "Applied Artificial Intelligence Lab (LIAA, ICC, UBA-CONICET)"
-      es: "Laboratorio de Inteligencia Artificial Aplicada (LIAA, ICC, UBA-CONICET)"
-    period: "2020 - 2026"
+      en: "BeWay"
+      es: "BeWay"
+    period: "Jan 2026 – Present"
     highlights:
       en:
-        - "**Project:** Development of computational tools for the early detection of cognitive deficits using predictions based on visual and manual trajectories."
-        - "**Predictive Modeling:** Application of Machine Learning to classify and understand the algorithm behind complex task execution in patients. Feature engineering derived from high-precision measurements (hand & eye tracking)."
-        - "**Experimental Web Development:** Implementation of remote cognitive assessments via webcam eye-tracking, developing custom browser-based data capture solutions."
-        - "*Funding: CONICET Doctoral Fellowship.*"
+        - "Implemented the **LLM‑as‑a‑Judge** system (Gu et al., 2025) for the RNA (Reasoning Numerical Alignment) audit pipeline, designing the full architecture and evaluation taxonomy."
+        - "Created a comprehensive prompt library and automated pipeline that performs fidelity, pairwise, and holistic‑ranking checks on BOCR (Benefits, Opportunities, Costs, Risks) artifacts."
+        - "Integrated bias‑mitigation techniques (CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments."
+        - "Developed high‑performance Python/R scripts and AWS‑based tooling to run the judge at scale across multiple scenarios."
+        - "*Tech stack:* **Python, R, AWS, Docker, Git, CI/CD**"
       es:
-        - "**Proyecto:** Desarrollo de herramientas computacionales para la detección temprana de déficits cognitivos mediante predicciones basadas en trayectorias visuales y manuales."
-        - "**Modelado Predictivo:** Uso de Machine Learning para clasificar y entender el algoritmo detrás de la ejecución de tareas complejas en pacientes. Ingeniería de features a partir de mediciones de alta precisión (hand & eye tracking)."
-        - "**Desarrollo Web Experimental:** Implementación de evaluaciones cognitivas remotas mediante eye-tracking por cámara web, desarrollando soluciones para capturar datos en el navegador."
-        - "*Financiamiento: Beca de Doctorado CONICET.*"
+        - "Implementé el sistema **LLM‑as‑a‑Judge** (Gu et al., 2025) para el pipeline de auditoría RNA (Reasoning Numerical Alignment), diseñando la arquitectura completa y la taxonomía de evaluación."
+        - "Construí una biblioteca de prompts y un pipeline automatizado que realiza verificaciones de fidelidad, pairwise y ranking holístico sobre los artefactos BOCR (Beneficios, Oportunidades, Costes, Riesgos)."
+        - "Integré técnicas de mitigación de sesgos (razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles."
+        - "Desarrollé scripts de alto rendimiento en Python y R, y herramientas basadas en **AWS** para ejecutar el juez a gran escala en múltiples escenarios."
+        - "*Stack:* Python, R, AWS, Docker, Git, CI/CD"
+  - id: "aiml_daiichi"
+    title:
+      en: "AI/ML Specialist Data Scientist"
+      es: "Data Scientist Especialista AI/ML"
+    company:
+      en: "Daiichi-Sankyo"
+      es: "Daiichi-Sankyo"
+    period: "Oct 2025 – Dec 2025"
+    highlights:
+      en:
+        - "Worked on a **Causal AI project** identifying key environmental factors from hundreds of data points to quantify pollution's causal effect on thousands of patient outcomes using **Double Machine Learning with Causal Forest**."
+        - "Developed the data infrastructure and high-performance scripts for deployment on **AWS**."
+        - "Fixed-term contract concluded due to budget restructuring; left on excellent terms with solid professional references."
+        - "*Tech stack: Python, Google Cloud.*"
+      es:
+        - "Trabajé en un **proyecto de Causal AI** que identificó factores ambientales clave entre cientos de variables para cuantificar el efecto causal de la contaminación en miles de resultados de pacientes, usando **Double Machine Learning con Causal Forest**."
+        - "Desarrollé la infraestructura de datos y scripts de alto rendimiento para despliegue en **AWS**."
+        - "Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas."
+        - "*Stack: Python, Google Cloud.*"
 
-  - id: "data_scientist_caf"
+  - id: "behavioral_ds_beway"
+    title:
+      en: "Behavioral Data Scientist"
+      es: "Data Scientist de Comportamiento"
+    company:
+      en: "BeWay"
+      es: "BeWay"
+    period: "Jun 2025 – Oct 2025"
+    highlights:
+      en:
+        - "Supported a **Geo Data Science project** identifying the top 10 features from hundreds of data points to determine product penetration across over 60 million tickets using machine learning techniques."
+        - "Spearheaded a **funnel optimization project** using Kaplan-Meier survival analysis on 10,000+ customers to identify conversion barriers and accelerate time-to-first-purchase."
+        - "*Tech stack: R, Python, Quarto, AWS, PostgreSQL, Git.*"
+      es:
+        - "Apoyé un **proyecto de Geo Data Science** que identificó las 10 características más relevantes entre cientos de variables para determinar la penetración del producto en más de 60 millones de tickets."
+        - "Lideré un **proyecto de optimización de funnel** usando análisis de supervivencia Kaplan-Meier sobre 10.000+ clientes para identificar barreras de conversión y acelerar el tiempo a la primera compra."
+        - "*Stack: R, Python, Quarto, AWS, PostgreSQL, Git.*"
+
+  - id: "ds_specialist_minsait"
+    title:
+      en: "Data Science Specialist"
+      es: "Especialista en Data Science"
+    company:
+      en: "Minsait"
+      es: "Minsait"
+    period: "Nov 2023 – Jun 2025"
+    highlights:
+      en:
+        - "Developed a comprehensive **data lake** integrating diverse hospital data sources, ensuring accuracy and consistency for implementation in **OMOP-CDM (OHDSI)**."
+        - "Built **RESTful APIs for ML/AI inference** (FastAPI), enabling integration of GenAI components such as embeddings, vector search, and LLM-powered analytics."
+        - "Developed and deployed **NLP/ML models in production** using Python, including Dockerized deployments and ETL orchestration with **Apache Airflow**."
+        - "Proficient in ETL processes using WhiteRabbit and Usagi for efficient data mapping and integration."
+        - "*Tech stack: R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.*"
+      es:
+        - "Desarrollé un **data lake** integral integrando diversas fuentes de datos hospitalarios, garantizando precisión y consistencia para la implementación en **OMOP-CDM (OHDSI)**."
+        - "Construí **APIs RESTful para inferencia ML/AI** (FastAPI), habilitando la integración de componentes GenAI como embeddings, búsqueda vectorial y analítica con LLMs."
+        - "Desarrollé y desplegué **modelos NLP/ML en producción** con Python, incluyendo despliegues con Docker y orquestación ETL con **Apache Airflow**."
+        - "Competente en procesos ETL usando WhiteRabbit y Usagi para mapeo e integración de datos."
+        - "*Stack: R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.*"
+
+  - id: "ds_tfs"
     title:
       en: "Data Scientist"
       es: "Data Scientist"
     company:
-      en: "Development Bank of Latin America and the Caribbean (CAF)"
-      es: "Banco de Desarrollo de América Latina y el Caribe (CAF)"
-    period: "2021 - 2022"
+      en: "TFS HealthScience"
+      es: "TFS HealthScience"
+    period: "Jun 2022 – May 2023"
     highlights:
       en:
-        - "**Project:** Early warning system to prevent school dropout in the province of Mendoza, Argentina."
-        - "**Tasks:** Data extraction and cleaning, creation and evaluation of Machine Learning models (risk classification/prediction), and development of dashboards for decision-making."
+        - "Acted as **programming lead** for a Phase IV study, including validation and documentation — saving the company **3+ years of research** following SDTM and ADaM standards for EMA submission."
+        - "Applied machine learning techniques (logistic regression with regularization) to optimize predictive models, achieving a **10% performance improvement**."
+        - "Created propensity matching between two treatments using regularized logistic regression to prevent overfitting."
+        - "Performed sample size and power calculations in R, and authored statistical analysis plans and study reports for Phases I–IV."
+        - "*Tech stack: R, SAS, RStudio, Python, CDISC, OHDSI.*"
       es:
-        - "**Proyecto:** Sistema de alertas tempranas para prevenir el abandono escolar en la provincia de Mendoza."
-        - "**Tareas:** Extracción y limpieza de datos, creación y evaluación de modelos de Machine Learning (clasificación/predicción de riesgo) y desarrollo de visualizaciones para toma de decisiones."
+        - "Actué como **líder de programación** para un estudio de Fase IV — ahorrando a la empresa **más de 3 años de investigación** siguiendo estándares SDTM y ADaM para el paquete de sumisión a la EMA."
+        - "Apliqué técnicas de Machine Learning (regresión logística con regularización) para optimizar modelos predictivos, logrando una **mejora del 10% en rendimiento**."
+        - "Creé emparejamiento por propensión entre dos tratamientos usando regresión logística regularizada para prevenir el sobreajuste."
+        - "Realicé cálculos de tamaño de muestra y potencia estadística en R, y redacté planes de análisis estadístico e informes para Fases I–IV."
+        - "*Stack: R, SAS, RStudio, Python, CDISC, OHDSI.*"
 
-  - id: "open_source"
+  - id: "ds_animal_data"
     title:
-      en: "Open Source Maintainer & Core Contributor"
-      es: "Desarrollador y Colaborador Principal Open Source"
+      en: "Data Scientist"
+      es: "Data Scientist"
     company:
-      en: "DataPruebas / \"pyxations\" Library (Python)"
-      es: "DataPruebas / Librería \"pyxations\" (Python)"
-    period:
-      en: "2024 - Present"
-      es: "2024 - Actualidad"
+      en: "Animal Data Analytics"
+      es: "Animal Data Analytics"
+    period: "Sep 2020 – Jun 2022"
     highlights:
       en:
-        - "**DataPruebas:** Co-creator of [datapruebas.org](https://datapruebas.org/), an online platform for scientific data collection, integrating open-source frameworks (jsPsych, PsychoPy) and enabling multi-modal data capture (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creator and core contributor of [Pyxations](https://github.com/NeuroLIAA/pyxations), a Python library designed to process, parse, and analyze eye-tracking events and data."
-        - "Software architecture design, implementation of best practices, and open-source project management."
+        - "Provided comprehensive analysis and recommended solutions for **5+ international clients** using SAS and CDISC standards."
+        - "Applied **ML and Deep Learning algorithms** across 10+ projects, achieving at least 10% performance improvement with reports in RMarkdown."
+        - "Supervised 1 intern and 1 data scientist in developing a regression model with a **7% performance upgrade** in R."
+        - "Conducted **survival analysis** (Kaplan-Meier, Cox proportional hazards, log-rank tests) for time-to-event outcomes."
+        - "*Tech stack: R, Python, SAS, RMarkdown.*"
       es:
-        - "**DataPruebas:** Co-creador de [datapruebas.org](https://datapruebas.org/), plataforma online para recolección de datos científicos, integrando frameworks open-source (jsPsych, PsychoPy) y habilitando la captura de múltiples modalidades (eye-tracking, audio, mouse)."
-        - "**Pyxations:** Co-creador y colaborador principal de [Pyxations](https://github.com/NeuroLIAA/pyxations), librería de Python orientada a procesar y analizar eventos y datos de eye-tracking."
-        - "Diseño y desarrollo de arquitectura de software, implementación de buenas prácticas y administración de proyectos de código abierto."
-
-  - id: "data_analyst_uba"
-    title:
-      en: "Data Analyst (UBA Extension Volunteer)"
-      es: "Analista de Datos (Voluntariado Extensión UBA)"
-    company:
-      en: "Popular Data Workshop (Taller de Datos Populares) - Exactas UBA"
-      es: "Taller de Datos Populares - Exactas UBA"
-    period: "2022 - 2024"
-    highlights:
-      en:
-        - "Application of Data Science tools to address social issues."
-        - "Development of **Web Scraping** pipelines to extract, analyze, and consolidate a database of short-term rental prices, assessing their economic impact in the Argentine Patagonia."
-      es:
-        - "Aplicación de herramientas de Ciencia de Datos para resolver problemáticas sociales."
-        - "Desarrollo de pipelines de **Web Scraping** para extraer, analizar y consolidar una base de datos de precios de alquileres temporales, evaluando el impacto económico en la Patagonia Argentina."
-
-  - id: "instructor"
-    title:
-      en: "Data Science & Programming Instructor"
-      es: "Docente en Data Science & Programación"
-    company:
-      en: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Argentine Society for Research in Neurosciences (SAN)"
-      es: "NeuroTransmitiendo, Instituto Humai, UBA, Instituto CPE & Sociedad Argentina de Investigación en Neurociencias (SAN)"
-    period:
-      en: "2021 - Present"
-      es: "2021 - Actualidad"
-    highlights:
-      en:
-        - "**Machine Learning Instructor:** Teacher in the Cognitive Neurosciences Diploma (NeuroTransmitiendo). Teaching Assistant for \"Thesis Workshop I\" (Master's in Data Mining and Knowledge Discovery, UBA)."
-        - "**Programming Instructor:** Teacher and material developer for Python courses (**Instituto Humai**). Instructor of *Data Wrangling* and *Data Visualization with Python* (**Instituto CPE**, remote, Uruguay), and the \"Data Analysis and Visualization with Python\" course (**SAN** 2022)."
-      es:
-        - "**Docencia en Machine Learning:** Docente en la Diplomatura en Neurociencias Cognitivas (NeuroTransmitiendo). Docente auxiliar en el \"Taller de Tesis I\" (Maestría en Data Mining, UBA)."
-        - "**Docencia en Programación:** Docente y desarrollador de material en cursos de Python (**Instituto Humai**). Instructor de *Data Wrangling* y *Visualización de datos con Python* (**Instituto CPE**, remoto, Uruguay), y del curso \"Análisis y visualización de datos con Python\" (**SAN** 2022)."
-
-  - id: "content_creator"
-    title:
-      en: "Educational Content Creator & Tech Writer"
-      es: "Creador de Contenido Educativo & Tech Writer"
-    company:
-      en: "freeCodeCamp & Independent Publications"
-      es: "freeCodeCamp & Publicaciones Independientes"
-    period:
-      en: "2021 - Present"
-      es: "2021 - Actualidad"
-    highlights:
-      en:
-        - "**freeCodeCamp:** First external contributor to the Spanish YouTube channel. Creator of the comprehensive [Web Scraping with Python and BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp) course."
-        - "**Outreach:** Active author of technical articles on Medium and Substack about interactive Python, NLP (e.g., semantic search engines with Streamlit), and programming tutorials."
-      es:
-        - "**freeCodeCamp:** Primer colaborador externo del canal de YouTube en español. Creación del curso completo de [Web Scraping con Python y BeautifulSoup](https://github.com/GEJ1/web_scraping_freecodecamp)."
-        - "**Divulgación:** Autor activo de artículos técnicos en Medium y Substack sobre Python interactivo, NLP (ej. buscadores semánticos con Streamlit), y tutoriales de programación."
+        - "Proveí análisis completos y soluciones recomendadas para **más de 5 clientes internacionales** usando SAS y estándares CDISC."
+        - "Apliqué **algoritmos de ML y Deep Learning** en más de 10 proyectos, logrando al menos un 10% de mejora en rendimiento con informes en RMarkdown."
+        - "Supervisé a 1 becario y 1 data scientist en el desarrollo de un modelo de regresión con una **mejora del 7%** en R."
+        - "Realicé **análisis de supervivencia** (Kaplan-Meier, Cox, log-rank) para resultados de tiempo hasta evento."
+        - "*Stack: R, Python, SAS, RMarkdown.*"
 
 education:
   primary:
     - title:
-        en: "**Ph.D. in Computer Science** | UBA (2020 - 2026)"
-        es: "**Doctorado en Ciencias de la Computación** | UBA (2020 - 2026)"
+        en: "**MSc. Big Data & Data Science** | VIU – Valencia, Remote (2025)"
+        es: "**Máster en Big Data & Data Science** | VIU – Valencia, Remoto (2025)"
       description:
-        en: "Topic: *Computational psychiatry: individual differences and identification of executive function deficits.*"
-        es: "Tema: *Psiquiatría computacional: diferencias individuales e identificación de déficits de funciones ejecutivas.*"
+        en: "Advanced training in large-scale data processing, cloud architectures, and AI/ML systems."
+        es: "Formación avanzada en procesamiento de datos a gran escala, arquitecturas cloud y sistemas AI/ML."
     - title:
-        en: "**B.S. in Biological Sciences (Neurosciences track)** | UBA (2011 - 2019)"
-        es: "**Licenciatura en Ciencias Biológicas (Orientación Neurociencias)** | UBA (2011 - 2019)"
+        en: "**BSc. Statistics** | UVa – Valladolid, Spain (2020)"
+        es: "**Grado en Estadística** | UVa – Valladolid, España (2020)"
       description:
-        en: "GPA: 7.96 / 10. Thesis conducted at the Applied Artificial Intelligence Lab."
-        es: "Promedio: 7.96 / 10. Tesis en el Lab. de Inteligencia Artificial Aplicada."
-  
+        en: "Strong foundation in statistical modeling, probability theory, and quantitative methods."
+        es: "Sólida base en modelado estadístico, teoría de la probabilidad y métodos cuantitativos."
+
   additional_header:
     en: "*Notable Additional Education (see LinkedIn for more):*"
     es: "*Educación Adicional Destacada (ver más en LinkedIn):*"
 
   additional:
-    - en: "**Generative Artificial Intelligence** (UBA, 2023): Language Models, Word Embeddings, Deep Learning, Computer Vision."
-      es: "**Inteligencia Artificial Generativa** (UBA, 2023): Modelos de lenguaje, Word Embeddings, Deep Learning, Visión por computadora."
-    - en: "**Data Lab** (UBA, 2021): NLP, Web Scraping, APIs, Advanced Regression/Classification Models. *Distinction: Best predictive model in the course's internal Kaggle-style competition.*"
-      es: "**Laboratorio de Datos** (UBA, 2021): NLP, Web Scraping, APIs, Modelos Avanzados de Regresión/Clasificación. *Distinción: Mejor modelo predictivo en la competencia interna Kaggle-style de la materia.*"
-    - en: "**Neuromatch Academy** (2020): Deep Learning, GLM, Dimensionality Reduction, Bayesian Statistics."
-      es: "**Neuromatch Academy** (2020): Deep Learning, GLM, Reducción de dimensionalidad, Estadística Bayesiana."
+    - en: "**AI Agents Intensive Course** (Google x Kaggle, 2025): LLMs, agent frameworks, orchestration, evaluation, and real-world deployment workflows."
+      es: "**Curso Intensivo de Agentes IA** (Google x Kaggle, 2025): LLMs, frameworks de agentes, orquestación, evaluación y despliegue en producción."
+    - en: "**6.86x: Machine Learning with Python – From Linear Models to Deep Learning** (MITx, 2021): Linear models, deep learning, reinforcement learning, hands-on Python projects."
+      es: "**6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** (MITx, 2021): Modelos lineales, deep learning, aprendizaje por refuerzo y proyectos prácticos en Python."
+    - en: "**LangChain for LLM Development** (freeCodeCamp, 2023): Transformer architecture, embeddings, generative AI pipeline, and prompt engineering with LangChain."
+      es: "**LangChain para Desarrollo con LLMs** (freeCodeCamp, 2023): Arquitectura transformer, embeddings, pipeline de IA generativa e ingeniería de prompts con LangChain."
 
-  mentorship_header:
-    en: "**Mentorship and Co-direction of Theses (B.S. in Computer Science, UBA):**"
-    es: "**Mentoría y Co-dirección de Tesis (Licenciatura en Ciencias de la Computación, UBA):**"
+certifications:
+  - title:
+      en: "AI Agents Intensive Course"
+      es: "Curso Intensivo de Agentes IA"
+    issuer: "Google x Kaggle"
+    year: "2025"
+    description:
+      en: "Hands-on training on designing and deploying AI agent systems using LLMs, tools, memory, and retrieval components. Covered agent frameworks, orchestration patterns, evaluation methodologies, and real-world deployment workflows."
+      es: "Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y componentes de recuperación. Frameworks de agentes, patrones de orquestación, evaluación y despliegue."
 
-  mentorship:
-    - en: "**Francisco Figari:** *Applicability of remote web eye-tracking to neuropsychological diagnosis* (Defended 2022)."
-      es: "**Francisco Figari:** *Aplicabilidad de eye-tracking web remoto al diagnóstico neuropsicológico* (defendida 2022)."
-    - en: "**Agustín Penas:** *Automatic detection of eye-tracking events* (In progress)."
-      es: "**Agustín Penas:** *Detección automática de eventos de eye-tracking* (en proceso)."
-    - en: "**Gianluca Capelo:** *Prediction of individual differences in executive functions using ML* (In progress)."
-      es: "**Gianluca Capelo:** *Predicción de diferencias individuales en funciones ejecutivas mediante ML* (en proceso)."
+  - title:
+      en: "LangChain for LLM Development"
+      es: "LangChain para Desarrollo con LLMs"
+    issuer: "freeCodeCamp"
+    year: "2023"
+    description:
+      en: "Transformer architecture, embeddings, generative AI project pipeline, and prompt engineering. LangChain as a standard interface for working with various LLMs."
+      es: "Arquitectura transformer, embeddings, pipeline de proyectos de IA generativa e ingeniería de prompts. LangChain como interfaz estándar para trabajar con distintos LLMs."
 
-publications_header:
-  en: "*(For the complete list of papers and posters refer to Google Scholar)*"
-  es: "*(Para la lista completa de papers y pósters referirse a Google Scholar)*"
+  - title:
+      en: "Google Data Analytics Certificate"
+      es: "Certificado de Análisis de Datos de Google"
+    issuer: "Google"
+    year: "2023"
+    description:
+      en: "Comprehensive training in R, SQL, Python, and Tableau for data analysis and visualization."
+      es: "Formación integral en R, SQL, Python y Tableau para análisis y visualización de datos."
 
-publications:
-  - en: "Verón, G. L., **Juantorena, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* In **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-    es: "Verón, G. L., **Juantorena, G. E.**, Keller, G., Crivelli, L., & Kamienkowski, J. E. (2026). *Eye tracking as a diagnostic tool in Alzheimer's disease, mild cognitive impairment, and related dementias: a systematic review.* **Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring**, 18(1), e70238."
-  - en: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* In **medRxiv**."
-    es: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Ibáñez, A., Petroni, A., Berrios, W., Fernández, M. C., & Kamienkowski, J. E. (2026). *Machine Learning Based Digital Assessment of Mild Cognitive Impairment Using Hand Movements during the Trail Making Test.* **medRxiv**."
-  - en: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Juantorena, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* In **Alzheimer's & Dementia**."
-    es: "Belloli, L., Keller, G., Carello, A., Gauder, L., **Juantorena, G. E.**, Corvalan, N., Allegri, R. F., Crivelli, L., & Fernández Slezak, D. (2025). *Multi-modal AI screening for MCI and Alzheimer's Disease: results from an Argentine Cohort.* **Alzheimer's & Dementia**."
-  - en: "**Juantorena, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* In **Argentine Symposium on Artificial Intelligence and Data Science (ASAID 2025)-JAIIO 54**."
-    es: "**Juantorena, G. E.**, Gauder, L., Laciana, P., Ferrer, L., & Kamienkowski, J. E. (2025). *DataPruebas: An Online Platform for Data Collection.* **Simposio Argentino de Inteligencia Artificial y Ciencia de Datos (ASAID 2025)-JAIIO 54**."
-  - en: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* In **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-    es: "**Juantorena, G. E.**, Capelo, G., Leon Vallejos, B. D., Berrios, W., Fernández, M. C., Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2024). *Enhancing Cognitive Assessment: Integrating Hand and Eye Tracking in the Digital Trail-Making Test for Mild Cognitive Impairment.* **ETRA '24** (ACM Symposium on Eye Tracking Research and Applications)."
-  - en: "**Juantorena, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* In **bioRxiv**."
-    es: "**Juantorena, G. E.**, Figari, F., Petroni, A., & Kamienkowski, J. E. (2023). *Web-based eye-tracking for remote cognitive assessments: The anti-saccade task as a case study.* **bioRxiv**."
-  - en: "Linari, I.\\*, **Juantorena, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* In **Scientific Reports (Nature)**, 12(1), 14265. (\\*Shared first authorship)."
-    es: "Linari, I.\\*, **Juantorena, G. E.\\***, Ibáñez, A., Petroni, A., & Kamienkowski, J. E. (2022). *Unveiling Trail Making Test: visual and manual trajectories indexing multiple executive processes.* **Scientific Reports (Nature)**, 12(1), 14265. (\\*Primera autoría compartida)."
+  - title:
+      en: "6.86x: Machine Learning with Python – From Linear Models to Deep Learning"
+      es: "6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning"
+    issuer: "MITx"
+    year: "2021"
+    description:
+      en: "In-depth introduction covering linear models, deep learning, and reinforcement learning, with hands-on Python projects."
+      es: "Introducción profunda que cubre modelos lineales, deep learning y aprendizaje por refuerzo, con proyectos prácticos en Python."
+
+  - title:
+      en: "Explainable AI (XAI)"
+      es: "Inteligencia Artificial Explicable (XAI)"
+    issuer: "DPhi"
+    year: "2023"
+    description:
+      en: "Human-interpretable machine learning using SHAP and LIME for model explainability."
+      es: "Machine learning interpretable por humanos usando SHAP y LIME para la explicabilidad de modelos."
+
+  - title:
+      en: "Biomedical Image Analysis in Python"
+      es: "Análisis de Imágenes Biomédicas en Python"
+    issuer: "DataCamp"
+    year: "2023"
+    description:
+      en: "Deep learning for identification from medical images using supervised and unsupervised learning techniques."
+      es: "Deep learning para identificación a partir de imágenes médicas con técnicas de aprendizaje supervisado y no supervisado."
+
+  - title:
+      en: "Deep Learning Online Bootcamp"
+      es: "Bootcamp Online de Deep Learning"
+    issuer: "DPhi"
+    year: "2021"
+    description:
+      en: "Image recognition bootcamp. Finished in the top 20% of the final competition with over 80% precision."
+      es: "Bootcamp de reconocimiento de imágenes. Finalicé en el top 20% de la competición final con más del 80% de precisión."
+
+  - title:
+      en: "Visual Studio Code for Pharma R"
+      es: "Visual Studio Code para R en Farma"
+    issuer: "R in Pharma"
+    year: "2023"
+    description:
+      en: "Introduction to VS Code for data analysis and machine learning projects in the pharmaceutical context."
+      es: "Introducción a VS Code para proyectos de análisis de datos y machine learning en el contexto farmacéutico."
+
+  - title:
+      en: "Data Analysis with Python"
+      es: "Análisis de Datos con Python"
+    issuer: "freeCodeCamp"
+    year: "2023"
+    description:
+      en: "Fundamentals of data analysis with Python: Pandas, NumPy, Matplotlib, and data wrangling."
+      es: "Fundamentos del análisis de datos con Python: Pandas, NumPy, Matplotlib y limpieza de datos."
+
+  - title:
+      en: "Continuous Learning in Data Science"
+      es: "Aprendizaje Continuo en Data Science"
+    issuer: "Various platforms (see LinkedIn)"
+    year: "2020 – Present"
+    description:
+      en: "Ongoing professional development across multiple platforms. Full list available on LinkedIn."
+      es: "Desarrollo profesional continuo en múltiples plataformas. Lista completa disponible en LinkedIn."
 
 skills:
-  - en: "**Programming Languages:** Python, JavaScript, R, Matlab, SQL."
-    es: "**Lenguajes de Programación:** Python, JavaScript, R, Matlab, SQL."
-  - en: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Exploratory Data Analysis (EDA), Statistical Modeling."
-    es: "**Data Science & Machine Learning:** Scikit-Learn, Pandas, NumPy, Análisis Exploratorio de Datos (EDA), Modelado Estadístico."
-  - en: "**Deep Learning & NLP:** Pytorch, LLMs."
-    es: "**Deep Learning & NLP:** Pytorch, LLMs."
-  - en: "**Data Engineering & Analysis:** Web Scraping (BeautifulSoup, automation), APIs, large-scale data preprocessing."
-    es: "**Ingeniería y Análisis de Datos:** Web Scraping (BeautifulSoup, automatización), APIs, preprocesamiento de grandes volúmenes de datos."
-  - en: "**Development Tools & Frameworks:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-    es: "**Herramientas y Frameworks de Desarrollo:** Git/GitHub, Jupyter Notebooks, Google Colab, Streamlit, jsPsych."
-  - en: "**Domain Specialties:** Eye-tracking, Signal Analysis (EEG, temporal trajectories), Online Experiment Design."
-    es: "**Especialidades de Dominio:** Eye-tracking, Análisis de Señales (EEG, trayectorias temporales), Diseño de Experimentos Online."
-  - en: "**Languages:** English (Advanced), Spanish (Native)."
-    es: "**Idiomas:** Inglés (Avanzado), Español (Nativo)."
+  - en: "**Programming Languages:** Python (LLM APIs, LangChain, FastAPI), R, SQL, PowerShell."
+    es: "**Lenguajes de Programación:** Python (LLM APIs, LangChain, FastAPI), R, SQL, PowerShell."
+  - en: "**GenAI & LLMs:** RAG pipelines, embeddings, vector search, prompt engineering, LangChain, LLM-based architectures."
+    es: "**GenAI & LLMs:** Pipelines RAG, embeddings, búsqueda vectorial, ingeniería de prompts, LangChain, arquitecturas basadas en LLMs."
+  - en: "**ML & Data Science:** Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling."
+    es: "**ML & Data Science:** Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo."
+  - en: "**MLOps & Cloud:** Docker, Apache Airflow, AWS, Azure, GCP, Databricks, PySpark, Hadoop."
+    es: "**MLOps & Cloud:** Docker, Apache Airflow, AWS, Azure, GCP, Databricks, PySpark, Hadoop."
+  - en: "**Data Engineering:** ETL pipelines, FastAPI, OMOP-CDM (OHDSI), WhiteRabbit, Usagi, CDISC standards."
+    es: "**Ingeniería de Datos:** Pipelines ETL, FastAPI, OMOP-CDM (OHDSI), WhiteRabbit, Usagi, estándares CDISC."
+  - en: "**Databases & BI:** MySQL, PostgreSQL, MongoDB, Cassandra, PowerBI, Tableau."
+    es: "**Bases de Datos & BI:** MySQL, PostgreSQL, MongoDB, Cassandra, PowerBI, Tableau."
+  - en: "**Version Control & Collaboration:** Git, GitHub, GitLab."
+    es: "**Control de Versiones & Colaboración:** Git, GitHub, GitLab."
+  - en: "**Languages:** Spanish (Native), English (Advanced)."
+    es: "**Idiomas:** Español (Nativo), Inglés (Avanzado)."
