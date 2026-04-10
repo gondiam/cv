@@ -23,7 +23,7 @@ Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de p
 
 *   Construí una biblioteca de prompts y un pipeline automatizado que realiza verificaciones de fidelidad, pairwise y ranking holístico sobre los artefactos BOCR (Beneficios, Oportunidades, Costes, Riesgos).
 
-*   Integré técnicas de mitigación de sesgos (razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles.
+*   Integré técnicas de mitigación de sesgos utilizando razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles.
 
 *   Desarrollé scripts de alto rendimiento en Python y R, y herramientas basadas en **AWS** para ejecutar el juez a gran escala en múltiples escenarios.
 

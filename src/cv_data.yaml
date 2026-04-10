@@ -47,13 +47,13 @@ experience:
       en:
         - "Implemented the **LLM‑as‑a‑Judge** system (Gu et al., 2025) for the RNA (Reasoning Numerical Alignment) audit pipeline, designing the full architecture and evaluation taxonomy."
         - "Created a comprehensive prompt library and automated pipeline that performs fidelity, pairwise, and holistic‑ranking checks on BOCR (Benefits, Opportunities, Costs, Risks) artifacts."
-        - "Integrated bias‑mitigation techniques (CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments."
+        - "Integrated bias‑mitigation techniques using CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments."
         - "Developed high‑performance Python/R scripts and AWS‑based tooling to run the judge at scale across multiple scenarios."
         - "*Tech stack:* **Python, R, AWS, Docker, Git, CI/CD**"
       es:
         - "Implementé el sistema **LLM‑as‑a‑Judge** (Gu et al., 2025) para el pipeline de auditoría RNA (Reasoning Numerical Alignment), diseñando la arquitectura completa y la taxonomía de evaluación."
         - "Construí una biblioteca de prompts y un pipeline automatizado que realiza verificaciones de fidelidad, pairwise y ranking holístico sobre los artefactos BOCR (Beneficios, Oportunidades, Costes, Riesgos)."
-        - "Integré técnicas de mitigación de sesgos (razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles."
+        - "Integré técnicas de mitigación de sesgos utilizando razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles."
         - "Desarrollé scripts de alto rendimiento en Python y R, y herramientas basadas en **AWS** para ejecutar el juez a gran escala en múltiples escenarios."
         - "*Stack:* Python, R, AWS, Docker, Git, CI/CD"
   - id: "aiml_daiichi"

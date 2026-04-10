@@ -23,7 +23,7 @@ GenAI-oriented Data Scientist with hands-on experience developing ML and AI pipe
 
 *   Created a comprehensive prompt library and automated pipeline that performs fidelity, pairwise, and holistic‑ranking checks on BOCR (Benefits, Opportunities, Costs, Risks) artifacts.
 
-*   Integrated bias‑mitigation techniques (CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments.
+*   Integrated bias‑mitigation techniques using CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments.
 
 *   Developed high‑performance Python/R scripts and AWS‑based tooling to run the judge at scale across multiple scenarios.
 
