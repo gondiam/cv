@@ -6,9 +6,9 @@
 
 ---
 
-## Perfil Profesional
+## Resumen Profesional
 
-Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de pipelines de ML e IA en Python, construcción de APIs, automatización de flujos de datos y despliegue de modelos en entornos cloud. Especializado en **arquitecturas basadas en LLMs, embeddings, pipelines RAG e ingeniería de prompts**, con exposición práctica a Azure, LangChain y operacionalización de modelos. Competente en Python, R, SQL e ingeniería de datos en la nube, con capacidad demostrada para desarrollar modelos predictivos y optimizar procesos de negocio.
+Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de vida del ML — desde modelado estadístico e inferencia causal hasta arquitecturas basadas en LLMs, pipelines RAG y MLOps. Trayectoria en pharma, healthtech y movilidad, con despliegues en producción sobre AWS, GCP y Azure. Actualmente diseño y escalo un sistema empresarial LLM-as-a-Judge, incluyendo diseño de arquitectura, estrategias de mitigación de sesgos y pipelines automatizados de auditoría BOCR. Capacidad demostrada para entregar en entornos de alta velocidad: construcción de data lakes integrando fuentes hospitalarias múltiples, servicios de inferencia ML con FastAPI, y liderazgo de programación clínica para paquetes de submission ante la EMA. Cómodo tanto liderando un pipeline completo de forma autónoma como colaborando transversalmente con equipos de investigación e ingeniería.
 
 ---
 
@@ -19,84 +19,78 @@ Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de p
 **BeWay** | *Jan 2026 – Present*
 
 
-*   Implementé el sistema **LLM‑as‑a‑Judge** (Gu et al., 2025) para el pipeline de auditoría RNA (Reasoning Numerical Alignment), diseñando la arquitectura completa y la taxonomía de evaluación.
+*   Lideré el diseño y despliegue del sistema LLM-as-a-Judge para el pipeline de auditoría RNA, definiendo la taxonomía de evaluación y los flujos de puntuación multiescenario.
 
-*   Construí una biblioteca de prompts y un pipeline automatizado que realiza verificaciones de fidelidad, pairwise y ranking holístico sobre los artefactos BOCR (Beneficios, Oportunidades, Costes, Riesgos).
+*   Escalé verificaciones automatizadas de fidelidad, pairwise y ranking holístico sobre artefactos BOCR para mejorar la consistencia de revisión y reducir la validación manual.
 
-*   Integré técnicas de mitigación de sesgos utilizando razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles.
+*   Construí herramientas reutilizables en Python/R y orquestación en AWS para ejecutar evaluaciones a gran escala en múltiples variantes de modelo y prompt.
 
-*   Desarrollé scripts de alto rendimiento en Python y R, y herramientas basadas en **AWS** para ejecutar el juez a gran escala en múltiples escenarios.
-
-*   *Stack:* Python, R, AWS, Docker, Git, CI/CD
-
-
-### Data Scientist Especialista AI/ML
-**Daiichi-Sankyo** | *Oct 2025 – Dec 2025*
-
-
-*   Trabajé en un **proyecto de Causal AI** que identificó factores ambientales clave entre cientos de variables para cuantificar el efecto causal de la contaminación en miles de resultados de pacientes, usando **Double Machine Learning con Causal Forest**.
-
-*   Desarrollé la infraestructura de datos y scripts de alto rendimiento para despliegue en **AWS**.
-
-*   Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas.
-
-*   *Stack: Python, Google Cloud.*
+*   *Tech stack:* Python, R, AWS, Docker, Git, CI/CD.
 
 
 ### Data Scientist de Comportamiento
 **BeWay** | *Jun 2025 – Oct 2025*
 
 
-*   Apoyé un **proyecto de Geo Data Science** que identificó las 10 características más relevantes entre cientos de variables para determinar la penetración del producto en más de 60 millones de tickets.
+*   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
 
-*   Lideré un **proyecto de optimización de funnel** usando análisis de supervivencia Kaplan-Meier sobre 10.000+ clientes para identificar barreras de conversión y acelerar el tiempo a la primera compra.
+*   Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra.
 
-*   *Stack: R, Python, Quarto, AWS, PostgreSQL, Git.*
+*   Transición al rol actual de investigación de IA tras cuatro meses de entrega cross-funcional para escalar sistemas avanzados LLM y RAG.
+
+*   *Tech stack:* R, Python, Quarto, AWS, PostgreSQL, Git.
+
+
+### Data Scientist Especialista AI/ML
+**Daiichi-Sankyo** | *Oct 2025 – Dec 2025*
+
+
+*   Entregué un compromiso de Causal AI de 3 meses identificando impulsores ambientales entre cientos de variables para resultados de pacientes con Double ML y Causal Forest.
+
+*   Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en AWS.
+
+*   Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas.
+
+*   *Tech stack:* Python, Google Cloud.
 
 
 ### Especialista en Data Science
 **Minsait** | *Nov 2023 – Jun 2025*
 
 
-*   Desarrollé un **data lake** integral integrando diversas fuentes de datos hospitalarios, garantizando precisión y consistencia para la implementación en **OMOP-CDM (OHDSI)**.
+*   Construí un data lake OMOP-CDM empresarial integrando fuentes hospitalarias clínicas y operativas para preparación de análisis.
 
-*   Construí **APIs RESTful para inferencia ML/AI** (FastAPI), habilitando la integración de componentes GenAI como embeddings, búsqueda vectorial y analítica con LLMs.
+*   Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream.
 
-*   Desarrollé y desplegué **modelos NLP/ML en producción** con Python, incluyendo despliegues con Docker y orquestación ETL con **Apache Airflow**.
+*   Desplegué modelos NLP/ML en producción con Docker y Airflow, estandarizando flujos de trabajo end-to-end y reduciendo handoffs manuales.
 
-*   Competente en procesos ETL usando WhiteRabbit y Usagi para mapeo e integración de datos.
-
-*   *Stack: R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.*
+*   *Tech stack:* R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.
 
 
 ### Data Scientist
 **TFS HealthScience** | *Jun 2022 – May 2023*
 
 
-*   Actué como **líder de programación** para un estudio de Fase IV — ahorrando a la empresa **más de 3 años de investigación** siguiendo estándares SDTM y ADaM para el paquete de sumisión a la EMA.
+*   Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM y ahorrando al equipo más de 3 años de trabajo.
 
-*   Apliqué técnicas de Machine Learning (regresión logística con regularización) para optimizar modelos predictivos, logrando una **mejora del 10% en rendimiento**.
+*   Desarrollé modelos de regresión logística regularizada para mejorar el rendimiento predictivo y apoyar la sumisión regulatoria.
 
-*   Creé emparejamiento por propensión entre dos tratamientos usando regresión logística regularizada para prevenir el sobreajuste.
+*   Entregué análisis comparativos por emparejamiento de propensión y planes estadísticos listos para regulación.
 
-*   Realicé cálculos de tamaño de muestra y potencia estadística en R, y redacté planes de análisis estadístico e informes para Fases I–IV.
-
-*   *Stack: R, SAS, RStudio, Python, CDISC, OHDSI.*
+*   *Tech stack:* R, SAS, Python, CDISC, OHDSI.
 
 
 ### Data Scientist
 **Animal Data Analytics** | *Sep 2020 – Jun 2022*
 
 
-*   Proveí análisis completos y soluciones recomendadas para **más de 5 clientes internacionales** usando SAS y estándares CDISC.
+*   Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales.
 
-*   Apliqué **algoritmos de ML y Deep Learning** en más de 10 proyectos, logrando al menos un 10% de mejora en rendimiento con informes en RMarkdown.
+*   Lideré un pequeño equipo para construir un modelo de regresión que mejoró el rendimiento predictivo en un 7% y traduje resultados en informes RMarkdown.
 
-*   Supervisé a 1 becario y 1 data scientist en el desarrollo de un modelo de regresión con una **mejora del 7%** en R.
+*   Apliqué métodos de análisis de supervivencia a resultados de tiempo hasta evento y presenté insights accionables a stakeholders.
 
-*   Realicé **análisis de supervivencia** (Kaplan-Meier, Cox, log-rank) para resultados de tiempo hasta evento.
-
-*   *Stack: R, Python, SAS, RMarkdown.*
+*   *Tech stack:* R, Python, SAS, RMarkdown.
 
 
 
@@ -115,11 +109,17 @@ Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de p
 *Educación Adicional Destacada (ver más en LinkedIn):*
 
 
-*   **Curso Intensivo de Agentes IA** (Google x Kaggle, 2025): LLMs, frameworks de agentes, orquestación, evaluación y despliegue en producción.
+*   **Inteligencia Artificial Explicable (XAI)** | DPHi (2023)
 
-*   **6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** (MITx, 2021): Modelos lineales, deep learning, aprendizaje por refuerzo y proyectos prácticos en Python.
+*   **Análisis de Imágenes Biomédicas en Python** | DataCamp (2023)
 
-*   **LangChain para Desarrollo con LLMs** (freeCodeCamp, 2023): Arquitectura transformer, embeddings, pipeline de IA generativa e ingeniería de prompts con LangChain.
+*   **Bootcamp Online de Deep Learning** | DPHi (2021)
+
+*   **Visual Studio Code para R en Farma** | R in Pharma (2023)
+
+*   **Análisis de Datos con Python** | freeCodeCamp (2023)
+
+*   **Aprendizaje Continuo en Data Science** | Varias plataformas
 
 
 ---
@@ -128,34 +128,16 @@ Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de p
 
 
 *   **Curso Intensivo de Agentes IA** — Google x Kaggle *(2025)*
-    *   Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y componentes de recuperación. Frameworks de agentes, patrones de orquestación, evaluación y despliegue.
-
-*   **LangChain para Desarrollo con LLMs** — freeCodeCamp *(2023)*
-    *   Arquitectura transformer, embeddings, pipeline de proyectos de IA generativa e ingeniería de prompts. LangChain como interfaz estándar para trabajar con distintos LLMs.
-
-*   **Certificado de Análisis de Datos de Google** — Google *(2023)*
-    *   Formación integral en R, SQL, Python y Tableau para análisis y visualización de datos.
+    *   Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y recuperación.
 
 *   **6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** — MITx *(2021)*
-    *   Introducción profunda que cubre modelos lineales, deep learning y aprendizaje por refuerzo, con proyectos prácticos en Python.
+    *   Profundización en modelos lineales, deep learning y aprendizaje por refuerzo con proyectos prácticos en Python.
 
-*   **Inteligencia Artificial Explicable (XAI)** — DPhi *(2023)*
-    *   Machine learning interpretable por humanos usando SHAP y LIME para la explicabilidad de modelos.
+*   **LangChain para Desarrollo con LLMs** — freeCodeCamp *(2023)*
+    *   Desarrollo práctico de LLMs con embeddings, prompts, búsqueda vectorial y orquestación de flujos generativos.
 
-*   **Análisis de Imágenes Biomédicas en Python** — DataCamp *(2023)*
-    *   Deep learning para identificación a partir de imágenes médicas con técnicas de aprendizaje supervisado y no supervisado.
-
-*   **Bootcamp Online de Deep Learning** — DPhi *(2021)*
-    *   Bootcamp de reconocimiento de imágenes. Finalicé en el top 20% de la competición final con más del 80% de precisión.
-
-*   **Visual Studio Code para R en Farma** — R in Pharma *(2023)*
-    *   Introducción a VS Code para proyectos de análisis de datos y machine learning en el contexto farmacéutico.
-
-*   **Análisis de Datos con Python** — freeCodeCamp *(2023)*
-    *   Fundamentos del análisis de datos con Python: Pandas, NumPy, Matplotlib y limpieza de datos.
-
-*   **Aprendizaje Continuo en Data Science** — Various platforms (see LinkedIn) *(2020 – Present)*
-    *   Desarrollo profesional continuo en múltiples plataformas. Lista completa disponible en LinkedIn.
+*   **Certificado de Análisis de Datos de Google** — Google *(2023)*
+    *   Formación de analítica en R, SQL, Python y visualización.
 
 
 ---
@@ -182,4 +164,4 @@ Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de p
 
 ---
 
-*Palencia, España | Disponibilidad para relocalización/remoto.*
+Referencias y cartas de recomendación disponibles bajo petición.

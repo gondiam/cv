@@ -6,8 +6,8 @@ contact:
   github: "https://github.com/gondiam"
   website: "https://gondiam.github.io/Gonzalo_Portfolio"
   location:
-    en: "Palencia, Spain | Available for relocation/remote work."
-    es: "Palencia, España | Disponibilidad para relocalización/remoto."
+    en: "Spain"
+    es: "España"
 
 titles:
   en: "Data Scientist | GenAI & MLOps Specialist | LLM & RAG Engineer"
@@ -15,8 +15,8 @@ titles:
 
 headers:
   profile:
-    en: "Professional Profile"
-    es: "Perfil Profesional"
+    en: "Professional Summary"
+    es: "Resumen Profesional"
   experience:
     en: "Relevant Experience"
     es: "Experiencia Relevante"
@@ -29,11 +29,9 @@ headers:
   skills:
     en: "Technical Skills"
     es: "Habilidades Técnicas"
-
 profile:
-  en: "GenAI-oriented Data Scientist with hands-on experience developing ML and AI pipelines in Python, building APIs, automating data workflows, and deploying models in cloud environments. Skilled in **LLM-based architectures, embeddings, RAG pipelines, and prompt engineering**, with practical exposure to Azure, LangChain, and model operationalization. Proficient in Python, R, SQL, and cloud-based data engineering, with a proven ability to develop and implement predictive models and optimize business processes. Strong collaborative spirit and committed to continuous learning, staying at the forefront of the rapidly evolving field of data science."
-  es: "Data Scientist orientado a GenAI con experiencia práctica en el desarrollo de pipelines de ML e IA en Python, construcción de APIs, automatización de flujos de datos y despliegue de modelos en entornos cloud. Especializado en **arquitecturas basadas en LLMs, embeddings, pipelines RAG e ingeniería de prompts**, con exposición práctica a Azure, LangChain y operacionalización de modelos. Competente en Python, R, SQL e ingeniería de datos en la nube, con capacidad demostrada para desarrollar modelos predictivos y optimizar procesos de negocio."
-
+  en: "Data Scientist with 5+ years of end-to-end experience across the full ML lifecycle — from statistical modeling and causal inference to LLM-based architectures, RAG pipelines, and MLOps. Background spans pharma, healthtech, and mobility, with production deployments on AWS, GCP, and Azure. Currently designing and scaling an enterprise LLM-as-a-Judge evaluation system, including architecture design, bias-mitigation strategies, and automated BOCR audit pipelines. Proven ability to deliver in fast-moving environments: built data lakes integrating multi-hospital sources, shipped FastAPI-based ML inference services, and led clinical programming for EMA-submission studies. Equally comfortable owning a full pipeline solo or collaborating cross-functionally with research and engineering teams."
+  es: "Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de vida del ML — desde modelado estadístico e inferencia causal hasta arquitecturas basadas en LLMs, pipelines RAG y MLOps. Trayectoria en pharma, healthtech y movilidad, con despliegues en producción sobre AWS, GCP y Azure. Actualmente diseño y escalo un sistema empresarial LLM-as-a-Judge, incluyendo diseño de arquitectura, estrategias de mitigación de sesgos y pipelines automatizados de auditoría BOCR. Capacidad demostrada para entregar en entornos de alta velocidad: construcción de data lakes integrando fuentes hospitalarias múltiples, servicios de inferencia ML con FastAPI, y liderazgo de programación clínica para paquetes de submission ante la EMA. Cómodo tanto liderando un pipeline completo de forma autónoma como colaborando transversalmente con equipos de investigación e ingeniería."
 experience:
   - id: "aiengineer_beway"
     title:
@@ -45,37 +43,15 @@ experience:
     period: "Jan 2026 – Present"
     highlights:
       en:
-        - "Implemented the **LLM‑as‑a‑Judge** system (Gu et al., 2025) for the RNA (Reasoning Numerical Alignment) audit pipeline, designing the full architecture and evaluation taxonomy."
-        - "Created a comprehensive prompt library and automated pipeline that performs fidelity, pairwise, and holistic‑ranking checks on BOCR (Benefits, Opportunities, Costs, Risks) artifacts."
-        - "Integrated bias‑mitigation techniques using CoT (Chain of Thought) reasoning, rubric‑based evaluation, position‑swap voting) to ensure robust, reproducible judgments."
-        - "Developed high‑performance Python/R scripts and AWS‑based tooling to run the judge at scale across multiple scenarios."
-        - "*Tech stack:* **Python, R, AWS, Docker, Git, CI/CD**"
+        - "Led design and deployment of the LLM-as-a-Judge system for the RNA audit pipeline, defining evaluation taxonomy and multi-scenario scoring workflows."
+        - "Scaled automated fidelity, pairwise, and holistic ranking checks across BOCR artifacts to improve review consistency and reduce manual validation."
+        - "Built reusable Python/R tooling and AWS orchestration to run audit evaluations at scale for multiple model and prompt variants."
+        - "*Tech stack:* Python, R, AWS, Docker, Git, CI/CD."
       es:
-        - "Implementé el sistema **LLM‑as‑a‑Judge** (Gu et al., 2025) para el pipeline de auditoría RNA (Reasoning Numerical Alignment), diseñando la arquitectura completa y la taxonomía de evaluación."
-        - "Construí una biblioteca de prompts y un pipeline automatizado que realiza verificaciones de fidelidad, pairwise y ranking holístico sobre los artefactos BOCR (Beneficios, Oportunidades, Costes, Riesgos)."
-        - "Integré técnicas de mitigación de sesgos utilizando razonamiento CoT (Chain of Thought), evaluación basada en rúbricas, votación con intercambio de posición) para garantizar juicios robustos y reproducibles."
-        - "Desarrollé scripts de alto rendimiento en Python y R, y herramientas basadas en **AWS** para ejecutar el juez a gran escala en múltiples escenarios."
-        - "*Stack:* Python, R, AWS, Docker, Git, CI/CD"
-  - id: "aiml_daiichi"
-    title:
-      en: "AI/ML Specialist Data Scientist"
-      es: "Data Scientist Especialista AI/ML"
-    company:
-      en: "Daiichi-Sankyo"
-      es: "Daiichi-Sankyo"
-    period: "Oct 2025 – Dec 2025"
-    highlights:
-      en:
-        - "Worked on a **Causal AI project** identifying key environmental factors from hundreds of data points to quantify pollution's causal effect on thousands of patient outcomes using **Double Machine Learning with Causal Forest**."
-        - "Developed the data infrastructure and high-performance scripts for deployment on **AWS**."
-        - "Fixed-term contract concluded due to budget restructuring; left on excellent terms with solid professional references."
-        - "*Tech stack: Python, Google Cloud.*"
-      es:
-        - "Trabajé en un **proyecto de Causal AI** que identificó factores ambientales clave entre cientos de variables para cuantificar el efecto causal de la contaminación en miles de resultados de pacientes, usando **Double Machine Learning con Causal Forest**."
-        - "Desarrollé la infraestructura de datos y scripts de alto rendimiento para despliegue en **AWS**."
-        - "Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas."
-        - "*Stack: Python, Google Cloud.*"
-
+        - "Lideré el diseño y despliegue del sistema LLM-as-a-Judge para el pipeline de auditoría RNA, definiendo la taxonomía de evaluación y los flujos de puntuación multiescenario."
+        - "Escalé verificaciones automatizadas de fidelidad, pairwise y ranking holístico sobre artefactos BOCR para mejorar la consistencia de revisión y reducir la validación manual."
+        - "Construí herramientas reutilizables en Python/R y orquestación en AWS para ejecutar evaluaciones a gran escala en múltiples variantes de modelo y prompt."
+        - "*Tech stack:* Python, R, AWS, Docker, Git, CI/CD."
   - id: "behavioral_ds_beway"
     title:
       en: "Behavioral Data Scientist"
@@ -86,14 +62,34 @@ experience:
     period: "Jun 2025 – Oct 2025"
     highlights:
       en:
-        - "Supported a **Geo Data Science project** identifying the top 10 features from hundreds of data points to determine product penetration across over 60 million tickets using machine learning techniques."
-        - "Spearheaded a **funnel optimization project** using Kaplan-Meier survival analysis on 10,000+ customers to identify conversion barriers and accelerate time-to-first-purchase."
-        - "*Tech stack: R, Python, Quarto, AWS, PostgreSQL, Git.*"
+        - "Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions."
+        - "Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase."
+        - "Transitioned into the current AI research role after four months of cross-functional delivery to scale advanced LLM and RAG systems."
+        - "*Tech stack:* R, Python, Quarto, AWS, PostgreSQL, Git."
       es:
-        - "Apoyé un **proyecto de Geo Data Science** que identificó las 10 características más relevantes entre cientos de variables para determinar la penetración del producto en más de 60 millones de tickets."
-        - "Lideré un **proyecto de optimización de funnel** usando análisis de supervivencia Kaplan-Meier sobre 10.000+ clientes para identificar barreras de conversión y acelerar el tiempo a la primera compra."
-        - "*Stack: R, Python, Quarto, AWS, PostgreSQL, Git.*"
-
+        - "Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas."
+        - "Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra."
+        - "Transición al rol actual de investigación de IA tras cuatro meses de entrega cross-funcional para escalar sistemas avanzados LLM y RAG."
+        - "*Tech stack:* R, Python, Quarto, AWS, PostgreSQL, Git."
+  - id: "aiml_daiichi"
+    title:
+      en: "AI/ML Specialist Data Scientist"
+      es: "Data Scientist Especialista AI/ML"
+    company:
+      en: "Daiichi-Sankyo"
+      es: "Daiichi-Sankyo"
+    period: "Oct 2025 – Dec 2025"
+    highlights:
+      en:
+        - "Delivered a 3-month Causal AI engagement identifying environmental drivers across hundreds of variables for patient outcomes using Double ML and Causal Forest."
+        - "Built the data infrastructure and high-performance analytics scripts for AWS deployment."
+        - "Fixed-term contract concluded due to budget restructuring; left on excellent terms with solid professional references."
+        - "*Tech stack:* Python, Google Cloud."
+      es:
+        - "Entregué un compromiso de Causal AI de 3 meses identificando impulsores ambientales entre cientos de variables para resultados de pacientes con Double ML y Causal Forest."
+        - "Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en AWS."
+        - "Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas."
+        - "*Tech stack:* Python, Google Cloud."
   - id: "ds_specialist_minsait"
     title:
       en: "Data Science Specialist"
@@ -104,18 +100,15 @@ experience:
     period: "Nov 2023 – Jun 2025"
     highlights:
       en:
-        - "Developed a comprehensive **data lake** integrating diverse hospital data sources, ensuring accuracy and consistency for implementation in **OMOP-CDM (OHDSI)**."
-        - "Built **RESTful APIs for ML/AI inference** (FastAPI), enabling integration of GenAI components such as embeddings, vector search, and LLM-powered analytics."
-        - "Developed and deployed **NLP/ML models in production** using Python, including Dockerized deployments and ETL orchestration with **Apache Airflow**."
-        - "Proficient in ETL processes using WhiteRabbit and Usagi for efficient data mapping and integration."
-        - "*Tech stack: R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.*"
+        - "Built an enterprise OMOP-CDM data lake integrating clinical and operational hospital sources for analytics readiness."
+        - "Owned RESTful ML/AI inference APIs with FastAPI, enabling embeddings, vector search, and LLM-powered analytics for downstream applications."
+        - "Deployed NLP/ML models in production with Docker and Airflow, standardizing end-to-end workflows and reducing manual handoffs."
+        - "*Tech stack:* R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI."
       es:
-        - "Desarrollé un **data lake** integral integrando diversas fuentes de datos hospitalarios, garantizando precisión y consistencia para la implementación en **OMOP-CDM (OHDSI)**."
-        - "Construí **APIs RESTful para inferencia ML/AI** (FastAPI), habilitando la integración de componentes GenAI como embeddings, búsqueda vectorial y analítica con LLMs."
-        - "Desarrollé y desplegué **modelos NLP/ML en producción** con Python, incluyendo despliegues con Docker y orquestación ETL con **Apache Airflow**."
-        - "Competente en procesos ETL usando WhiteRabbit y Usagi para mapeo e integración de datos."
-        - "*Stack: R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.*"
-
+        - "Construí un data lake OMOP-CDM empresarial integrando fuentes hospitalarias clínicas y operativas para preparación de análisis."
+        - "Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream."
+        - "Desplegué modelos NLP/ML en producción con Docker y Airflow, estandarizando flujos de trabajo end-to-end y reduciendo handoffs manuales."
+        - "*Tech stack:* R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI."
   - id: "ds_tfs"
     title:
       en: "Data Scientist"
@@ -126,18 +119,15 @@ experience:
     period: "Jun 2022 – May 2023"
     highlights:
       en:
-        - "Acted as **programming lead** for a Phase IV study, including validation and documentation — saving the company **3+ years of research** following SDTM and ADaM standards for EMA submission."
-        - "Applied machine learning techniques (logistic regression with regularization) to optimize predictive models, achieving a **10% performance improvement**."
-        - "Created propensity matching between two treatments using regularized logistic regression to prevent overfitting."
-        - "Performed sample size and power calculations in R, and authored statistical analysis plans and study reports for Phases I–IV."
-        - "*Tech stack: R, SAS, RStudio, Python, CDISC, OHDSI.*"
+        - "Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows and saving the team 3+ years of research effort."
+        - "Built regularized logistic regression models to improve predictive performance and support regulatory submission."
+        - "Delivered propensity-matched comparative analyses and regulatory-ready statistical plans and study reports."
+        - "*Tech stack:* R, SAS, Python, CDISC, OHDSI."
       es:
-        - "Actué como **líder de programación** para un estudio de Fase IV — ahorrando a la empresa **más de 3 años de investigación** siguiendo estándares SDTM y ADaM para el paquete de sumisión a la EMA."
-        - "Apliqué técnicas de Machine Learning (regresión logística con regularización) para optimizar modelos predictivos, logrando una **mejora del 10% en rendimiento**."
-        - "Creé emparejamiento por propensión entre dos tratamientos usando regresión logística regularizada para prevenir el sobreajuste."
-        - "Realicé cálculos de tamaño de muestra y potencia estadística en R, y redacté planes de análisis estadístico e informes para Fases I–IV."
-        - "*Stack: R, SAS, RStudio, Python, CDISC, OHDSI.*"
-
+        - "Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM y ahorrando al equipo más de 3 años de trabajo."
+        - "Desarrollé modelos de regresión logística regularizada para mejorar el rendimiento predictivo y apoyar la sumisión regulatoria."
+        - "Entregué análisis comparativos por emparejamiento de propensión y planes estadísticos listos para regulación."
+        - "*Tech stack:* R, SAS, Python, CDISC, OHDSI."
   - id: "ds_animal_data"
     title:
       en: "Data Scientist"
@@ -148,18 +138,15 @@ experience:
     period: "Sep 2020 – Jun 2022"
     highlights:
       en:
-        - "Provided comprehensive analysis and recommended solutions for **5+ international clients** using SAS and CDISC standards."
-        - "Applied **ML and Deep Learning algorithms** across 10+ projects, achieving at least 10% performance improvement with reports in RMarkdown."
-        - "Supervised 1 intern and 1 data scientist in developing a regression model with a **7% performance upgrade** in R."
-        - "Conducted **survival analysis** (Kaplan-Meier, Cox proportional hazards, log-rank tests) for time-to-event outcomes."
-        - "*Tech stack: R, Python, SAS, RMarkdown.*"
+        - "Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements."
+        - "Led a small team to build a regression model that improved predictive performance by 7% and translated results into RMarkdown reports."
+        - "Applied survival analysis methods to time-to-event outcomes and presented actionable insights to stakeholders."
+        - "*Tech stack:* R, Python, SAS, RMarkdown."
       es:
-        - "Proveí análisis completos y soluciones recomendadas para **más de 5 clientes internacionales** usando SAS y estándares CDISC."
-        - "Apliqué **algoritmos de ML y Deep Learning** en más de 10 proyectos, logrando al menos un 10% de mejora en rendimiento con informes en RMarkdown."
-        - "Supervisé a 1 becario y 1 data scientist en el desarrollo de un modelo de regresión con una **mejora del 7%** en R."
-        - "Realicé **análisis de supervivencia** (Kaplan-Meier, Cox, log-rank) para resultados de tiempo hasta evento."
-        - "*Stack: R, Python, SAS, RMarkdown.*"
-
+        - "Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales."
+        - "Lideré un pequeño equipo para construir un modelo de regresión que mejoró el rendimiento predictivo en un 7% y traduje resultados en informes RMarkdown."
+        - "Apliqué métodos de análisis de supervivencia a resultados de tiempo hasta evento y presenté insights accionables a stakeholders."
+        - "*Tech stack:* R, Python, SAS, RMarkdown."
 education:
   primary:
     - title:
@@ -180,12 +167,18 @@ education:
     es: "*Educación Adicional Destacada (ver más en LinkedIn):*"
 
   additional:
-    - en: "**AI Agents Intensive Course** (Google x Kaggle, 2025): LLMs, agent frameworks, orchestration, evaluation, and real-world deployment workflows."
-      es: "**Curso Intensivo de Agentes IA** (Google x Kaggle, 2025): LLMs, frameworks de agentes, orquestación, evaluación y despliegue en producción."
-    - en: "**6.86x: Machine Learning with Python – From Linear Models to Deep Learning** (MITx, 2021): Linear models, deep learning, reinforcement learning, hands-on Python projects."
-      es: "**6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** (MITx, 2021): Modelos lineales, deep learning, aprendizaje por refuerzo y proyectos prácticos en Python."
-    - en: "**LangChain for LLM Development** (freeCodeCamp, 2023): Transformer architecture, embeddings, generative AI pipeline, and prompt engineering with LangChain."
-      es: "**LangChain para Desarrollo con LLMs** (freeCodeCamp, 2023): Arquitectura transformer, embeddings, pipeline de IA generativa e ingeniería de prompts con LangChain."
+    - en: "**Explainable AI (XAI)** | DPHi (2023)"
+      es: "**Inteligencia Artificial Explicable (XAI)** | DPHi (2023)"
+    - en: "**Biomedical Image Analysis in Python** | DataCamp (2023)"
+      es: "**Análisis de Imágenes Biomédicas en Python** | DataCamp (2023)"
+    - en: "**Deep Learning Online Bootcamp** | DPHi (2021)"
+      es: "**Bootcamp Online de Deep Learning** | DPHi (2021)"
+    - en: "**Visual Studio Code for Pharma R** | R in Pharma (2023)"
+      es: "**Visual Studio Code para R en Farma** | R in Pharma (2023)"
+    - en: "**Data Analysis with Python** | freeCodeCamp (2023)"
+      es: "**Análisis de Datos con Python** | freeCodeCamp (2023)"
+    - en: "**Continuous Learning in Data Science** | Various platforms"
+      es: "**Aprendizaje Continuo en Data Science** | Varias plataformas"
 
 certifications:
   - title:
@@ -194,26 +187,8 @@ certifications:
     issuer: "Google x Kaggle"
     year: "2025"
     description:
-      en: "Hands-on training on designing and deploying AI agent systems using LLMs, tools, memory, and retrieval components. Covered agent frameworks, orchestration patterns, evaluation methodologies, and real-world deployment workflows."
-      es: "Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y componentes de recuperación. Frameworks de agentes, patrones de orquestación, evaluación y despliegue."
-
-  - title:
-      en: "LangChain for LLM Development"
-      es: "LangChain para Desarrollo con LLMs"
-    issuer: "freeCodeCamp"
-    year: "2023"
-    description:
-      en: "Transformer architecture, embeddings, generative AI project pipeline, and prompt engineering. LangChain as a standard interface for working with various LLMs."
-      es: "Arquitectura transformer, embeddings, pipeline de proyectos de IA generativa e ingeniería de prompts. LangChain como interfaz estándar para trabajar con distintos LLMs."
-
-  - title:
-      en: "Google Data Analytics Certificate"
-      es: "Certificado de Análisis de Datos de Google"
-    issuer: "Google"
-    year: "2023"
-    description:
-      en: "Comprehensive training in R, SQL, Python, and Tableau for data analysis and visualization."
-      es: "Formación integral en R, SQL, Python y Tableau para análisis y visualización de datos."
+      en: "Hands-on training designing and deploying AI agent systems with LLMs, tools, memory, and retrieval."
+      es: "Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y recuperación."
 
   - title:
       en: "6.86x: Machine Learning with Python – From Linear Models to Deep Learning"
@@ -221,63 +196,30 @@ certifications:
     issuer: "MITx"
     year: "2021"
     description:
-      en: "In-depth introduction covering linear models, deep learning, and reinforcement learning, with hands-on Python projects."
-      es: "Introducción profunda que cubre modelos lineales, deep learning y aprendizaje por refuerzo, con proyectos prácticos en Python."
+      en: "Deep dive into linear models, deep learning, and reinforcement learning with hands-on Python projects."
+      es: "Profundización en modelos lineales, deep learning y aprendizaje por refuerzo con proyectos prácticos en Python."
 
   - title:
-      en: "Explainable AI (XAI)"
-      es: "Inteligencia Artificial Explicable (XAI)"
-    issuer: "DPhi"
-    year: "2023"
-    description:
-      en: "Human-interpretable machine learning using SHAP and LIME for model explainability."
-      es: "Machine learning interpretable por humanos usando SHAP y LIME para la explicabilidad de modelos."
-
-  - title:
-      en: "Biomedical Image Analysis in Python"
-      es: "Análisis de Imágenes Biomédicas en Python"
-    issuer: "DataCamp"
-    year: "2023"
-    description:
-      en: "Deep learning for identification from medical images using supervised and unsupervised learning techniques."
-      es: "Deep learning para identificación a partir de imágenes médicas con técnicas de aprendizaje supervisado y no supervisado."
-
-  - title:
-      en: "Deep Learning Online Bootcamp"
-      es: "Bootcamp Online de Deep Learning"
-    issuer: "DPhi"
-    year: "2021"
-    description:
-      en: "Image recognition bootcamp. Finished in the top 20% of the final competition with over 80% precision."
-      es: "Bootcamp de reconocimiento de imágenes. Finalicé en el top 20% de la competición final con más del 80% de precisión."
-
-  - title:
-      en: "Visual Studio Code for Pharma R"
-      es: "Visual Studio Code para R en Farma"
-    issuer: "R in Pharma"
-    year: "2023"
-    description:
-      en: "Introduction to VS Code for data analysis and machine learning projects in the pharmaceutical context."
-      es: "Introducción a VS Code para proyectos de análisis de datos y machine learning en el contexto farmacéutico."
-
-  - title:
-      en: "Data Analysis with Python"
-      es: "Análisis de Datos con Python"
+      en: "LangChain for LLM Development"
+      es: "LangChain para Desarrollo con LLMs"
     issuer: "freeCodeCamp"
     year: "2023"
     description:
-      en: "Fundamentals of data analysis with Python: Pandas, NumPy, Matplotlib, and data wrangling."
-      es: "Fundamentos del análisis de datos con Python: Pandas, NumPy, Matplotlib y limpieza de datos."
+      en: "Practical LLM development with embeddings, prompts, vector search, and generative workflow orchestration."
+      es: "Desarrollo práctico de LLMs con embeddings, prompts, búsqueda vectorial y orquestación de flujos generativos."
 
   - title:
-      en: "Continuous Learning in Data Science"
-      es: "Aprendizaje Continuo en Data Science"
-    issuer: "Various platforms (see LinkedIn)"
-    year: "2020 – Present"
+      en: "Google Data Analytics Certificate"
+      es: "Certificado de Análisis de Datos de Google"
+    issuer: "Google"
+    year: "2023"
     description:
-      en: "Ongoing professional development across multiple platforms. Full list available on LinkedIn."
-      es: "Desarrollo profesional continuo en múltiples plataformas. Lista completa disponible en LinkedIn."
+      en: "Foundational analytics training in R, SQL, Python, and visualization."
+      es: "Formación de analítica en R, SQL, Python y visualización."
 
+certifications_note:
+  en: "+ additional certifications available on LinkedIn."
+  es: "+ certificaciones adicionales disponibles en LinkedIn."
 skills:
   - en: "**Programming Languages:** Python (LLM APIs, LangChain, FastAPI), R, SQL, PowerShell."
     es: "**Lenguajes de Programación:** Python (LLM APIs, LangChain, FastAPI), R, SQL, PowerShell."
@@ -295,3 +237,8 @@ skills:
     es: "**Control de Versiones & Colaboración:** Git, GitHub, GitLab."
   - en: "**Languages:** Spanish (Native), English (Advanced)."
     es: "**Idiomas:** Español (Nativo), Inglés (Avanzado)."
+
+footer:
+  note:
+    en: "References and recommendation letters available upon request."
+    es: "Referencias y cartas de recomendación disponibles bajo petición."
