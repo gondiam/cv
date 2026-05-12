@@ -1,7 +1,7 @@
 # Gonzalo Díaz Amor
 **Data Scientist | Especialista GenAI & MLOps | Ingeniero LLM & RAG**
 
-[Email](mailto:gdiazamor.ds@gmail.com) | [Teléfono](tel:+34693299747) | [LinkedIn](https://www.linkedin.com/in/gdiazamor/) | [GitHub](https://github.com/gondiam) | [Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
+[gdiazamor.ds@gmail.com](mailto:gdiazamor.ds@gmail.com) | [+34693299747](tel:+34693299747) | [LinkedIn](https://www.linkedin.com/in/gdiazamor/) | [GitHub](https://github.com/gondiam) | [Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
 
 
 ---
@@ -16,7 +16,7 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 
 ### Ingeniero de Investigación en IA/ML
-**BeWay** | *Jan 2026 – Present*
+**BeWay** | *Jan 2026 - Present*
 
 
 *   Lideré el diseño y despliegue del sistema LLM-as-a-Judge para el pipeline de auditoría RNA, definiendo la taxonomía de evaluación y los flujos de puntuación multiescenario.
@@ -25,11 +25,11 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 *   Construí herramientas reutilizables en Python/R y orquestación en AWS para ejecutar evaluaciones a gran escala en múltiples variantes de modelo y prompt.
 
-*   *Tech stack:* Python, R, AWS, Docker, Git, CI/CD.
+*   *Tech stack:* Python, R, AWS (S3, Bedrock, SageMaker, Lambda, ECR), Docker, Git, CI/CD.
 
 
 ### Data Scientist de Comportamiento
-**BeWay** | *Jun 2025 – Oct 2025*
+**BeWay** | *Jun 2025 - Oct 2025*
 
 
 *   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
@@ -38,24 +38,24 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 *   Transición al rol actual de investigación de IA tras cuatro meses de entrega cross-funcional para escalar sistemas avanzados LLM y RAG.
 
-*   *Tech stack:* R, Python, Quarto, AWS, PostgreSQL, Git.
+*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
 
 
 ### Data Scientist Especialista AI/ML
-**Daiichi-Sankyo** | *Oct 2025 – Dec 2025*
+**Daiichi-Sankyo** | *Oct 2025 - Dec 2025*
 
 
 *   Entregué un compromiso de Causal AI de 3 meses identificando impulsores ambientales entre cientos de variables para resultados de pacientes con Double ML y Causal Forest.
 
-*   Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en AWS.
+*   Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud.
 
-*   Contrato de duración determinada finalizado por reestructuración presupuestaria; salida en excelentes términos con referencias profesionales sólidas.
+*   Contrato inicialmente de 12 meses, acortado por reestructuración presupuestaria interna; salida en excelentes términos con referencias profesionales sólidas.
 
 *   *Tech stack:* Python, Google Cloud.
 
 
 ### Especialista en Data Science
-**Minsait** | *Nov 2023 – Jun 2025*
+**Minsait** | *Nov 2023 - Jun 2025*
 
 
 *   Construí un data lake OMOP-CDM empresarial integrando fuentes hospitalarias clínicas y operativas para preparación de análisis.
@@ -68,7 +68,7 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 
 ### Data Scientist
-**TFS HealthScience** | *Jun 2022 – May 2023*
+**TFS HealthScience** | *Jun 2022 - May 2023*
 
 
 *   Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM y ahorrando al equipo más de 3 años de trabajo.
@@ -81,7 +81,7 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 
 ### Data Scientist
-**Animal Data Analytics** | *Sep 2020 – Jun 2022*
+**Animal Data Analytics** | *Sep 2020 - Jun 2022*
 
 
 *   Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales.
@@ -149,7 +149,7 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 
 *   **GenAI & LLMs:** Pipelines RAG, embeddings, búsqueda vectorial, ingeniería de prompts, LangChain, arquitecturas basadas en LLMs.
 
-*   **ML & Data Science:** Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo.
+*   **ML & Data Science:** PyTorch, TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo.
 
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, Azure, GCP, Databricks, PySpark, Hadoop.
 

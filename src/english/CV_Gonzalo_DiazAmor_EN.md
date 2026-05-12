@@ -1,7 +1,7 @@
 # Gonzalo Díaz Amor
 **Data Scientist | GenAI & MLOps Specialist | LLM & RAG Engineer**
 
-[Email](mailto:gdiazamor.ds@gmail.com) | [Teléfono](tel:+34693299747) | [LinkedIn](https://www.linkedin.com/in/gdiazamor/) | [GitHub](https://github.com/gondiam) | [Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
+[gdiazamor.ds@gmail.com](mailto:gdiazamor.ds@gmail.com) | [+34693299747](tel:+34693299747) | [LinkedIn](https://www.linkedin.com/in/gdiazamor/) | [GitHub](https://github.com/gondiam) | [Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
 
 
 ---
@@ -16,7 +16,7 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 
 ### AI/ML Research Engineer
-**BeWay** | *Jan 2026 – Present*
+**BeWay** | *Jan 2026 - Present*
 
 
 *   Led design and deployment of the LLM-as-a-Judge system for the RNA audit pipeline, defining evaluation taxonomy and multi-scenario scoring workflows.
@@ -25,11 +25,11 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 *   Built reusable Python/R tooling and AWS orchestration to run audit evaluations at scale for multiple model and prompt variants.
 
-*   *Tech stack:* Python, R, AWS, Docker, Git, CI/CD.
+*   *Tech stack:* Python, R, AWS (S3, Bedrock, SageMaker, Lambda, ECR), Docker, Git, CI/CD.
 
 
 ### Behavioral Data Scientist
-**BeWay** | *Jun 2025 – Oct 2025*
+**BeWay** | *Jun 2025 - Oct 2025*
 
 
 *   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
@@ -38,24 +38,24 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 *   Transitioned into the current AI research role after four months of cross-functional delivery to scale advanced LLM and RAG systems.
 
-*   *Tech stack:* R, Python, Quarto, AWS, PostgreSQL, Git.
+*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
 
 
 ### AI/ML Specialist Data Scientist
-**Daiichi-Sankyo** | *Oct 2025 – Dec 2025*
+**Daiichi-Sankyo** | *Oct 2025 - Dec 2025*
 
 
 *   Delivered a 3-month Causal AI engagement identifying environmental drivers across hundreds of variables for patient outcomes using Double ML and Causal Forest.
 
-*   Built the data infrastructure and high-performance analytics scripts for AWS deployment.
+*   Built the data infrastructure and high-performance analytics scripts for Google Cloud deployment.
 
-*   Fixed-term contract concluded due to budget restructuring; left on excellent terms with solid professional references.
+*   Originally a 12-month engagement shortened due to internal budget restructuring; departed on excellent terms with strong professional references.
 
 *   *Tech stack:* Python, Google Cloud.
 
 
 ### Data Science Specialist
-**Minsait** | *Nov 2023 – Jun 2025*
+**Minsait** | *Nov 2023 - Jun 2025*
 
 
 *   Built an enterprise OMOP-CDM data lake integrating clinical and operational hospital sources for analytics readiness.
@@ -68,7 +68,7 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 
 ### Data Scientist
-**TFS HealthScience** | *Jun 2022 – May 2023*
+**TFS HealthScience** | *Jun 2022 - May 2023*
 
 
 *   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows and saving the team 3+ years of research effort.
@@ -81,7 +81,7 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 
 ### Data Scientist
-**Animal Data Analytics** | *Sep 2020 – Jun 2022*
+**Animal Data Analytics** | *Sep 2020 - Jun 2022*
 
 
 *   Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements.
@@ -149,7 +149,7 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 *   **GenAI & LLMs:** RAG pipelines, embeddings, vector search, prompt engineering, LangChain, LLM-based architectures.
 
-*   **ML & Data Science:** Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
+*   **ML & Data Science:** PyTorch, TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
 
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, Azure, GCP, Databricks, PySpark, Hadoop.
 
