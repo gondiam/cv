@@ -28,19 +28,6 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 *   *Tech stack:* Python, R, AWS (S3, Bedrock, SageMaker, Lambda, ECR), Docker, Git, CI/CD.
 
 
-### Behavioral Data Scientist
-**BeWay** | *Jun 2025 - Oct 2025*
-
-
-*   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
-
-*   Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase.
-
-*   Transitioned into the current AI research role after four months of cross-functional delivery to scale advanced LLM and RAG systems.
-
-*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
-
-
 ### AI/ML Specialist Data Scientist
 **Daiichi-Sankyo** | *Oct 2025 - Dec 2025*
 
@@ -52,6 +39,19 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 *   Originally a 12-month engagement shortened due to internal budget restructuring; departed on excellent terms with strong professional references.
 
 *   *Tech stack:* Python, Google Cloud.
+
+
+### Behavioral Data Scientist
+**BeWay** | *Jun 2025 - Oct 2025*
+
+
+*   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
+
+*   Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase.
+
+*   Transitioned into the current AI research role after four months of cross-functional delivery to scale advanced LLM and RAG systems.
+
+*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
 
 
 ### Data Science Specialist

@@ -28,19 +28,6 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 *   *Tech stack:* Python, R, AWS (S3, Bedrock, SageMaker, Lambda, ECR), Docker, Git, CI/CD.
 
 
-### Data Scientist de Comportamiento
-**BeWay** | *Jun 2025 - Oct 2025*
-
-
-*   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
-
-*   Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra.
-
-*   Transición al rol actual de investigación de IA tras cuatro meses de entrega cross-funcional para escalar sistemas avanzados LLM y RAG.
-
-*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
-
-
 ### Data Scientist Especialista AI/ML
 **Daiichi-Sankyo** | *Oct 2025 - Dec 2025*
 
@@ -52,6 +39,19 @@ Data Scientist con más de 5 años de experiencia end-to-end en todo el ciclo de
 *   Contrato inicialmente de 12 meses, acortado por reestructuración presupuestaria interna; salida en excelentes términos con referencias profesionales sólidas.
 
 *   *Tech stack:* Python, Google Cloud.
+
+
+### Data Scientist de Comportamiento
+**BeWay** | *Jun 2025 - Oct 2025*
+
+
+*   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
+
+*   Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra.
+
+*   Transición al rol actual de investigación de IA tras cuatro meses de entrega cross-funcional para escalar sistemas avanzados LLM y RAG.
+
+*   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
 
 
 ### Especialista en Data Science
