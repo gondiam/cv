@@ -1,16 +1,16 @@
 # Gonzalo Díaz Amor
-**Data Scientist | GenAI & MLOps Specialist | LLM & RAG Engineer**
+**Senior Data Scientist — LLM Evaluation & Statistical/Causal ML · Healthcare & Pharma**
+
+Spain (CET) · Remote · Open to EOR or contractor
 
 [gdiazamor.ds@gmail.com](mailto:gdiazamor.ds@gmail.com) | [+34693299747](tel:+34693299747) | [LinkedIn](https://www.linkedin.com/in/gdiazamor/) | [GitHub](https://github.com/gondiam) | [Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
 
 
----
 
 ## Professional Summary
 
-Data Scientist with 5+ years of end-to-end experience across the full ML lifecycle — from statistical modeling and causal inference to LLM-based architectures, RAG pipelines, and MLOps. Background spans pharma, healthtech, and mobility, with production deployments on AWS, GCP, and Azure. Currently designing and scaling an enterprise LLM-as-a-Judge evaluation system, including architecture design, bias-mitigation strategies, and automated BOCR audit pipelines. Proven ability to deliver in fast-moving environments: built data lakes integrating multi-hospital sources, shipped FastAPI-based ML inference services, and led clinical programming for EMA-submission studies. Equally comfortable owning a full pipeline solo or collaborating cross-functionally with research and engineering teams.
+Data Scientist with 6 years of end-to-end experience across the full ML lifecycle — from statistical modeling and causal inference to LLM-based architectures, RAG pipelines, and MLOps. Background spans pharma, healthtech, and mobility, with production deployments on AWS and GCP. Currently designing an LLM-as-a-Judge system that audits narrative–quantitative consistency in multi-criteria decision analyses, with position-bias mitigation and 5-replica majority voting. Also built multi-hospital data lakes, FastAPI inference services, and clinical programming for EMA submissions.
 
----
 
 ## Relevant Experience
 
@@ -19,24 +19,28 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 **BeWay** | *Jan 2026 - Present*
 
 
-*   Led design and deployment of the LLM-as-a-Judge system for the RNA audit pipeline, defining evaluation taxonomy and multi-scenario scoring workflows.
+*   **LLM-as-a-Judge for decision audits:** designed a judge that audits narrative–quantitative consistency in multi-criteria decision analyses (BOCR/AHP); mitigated position bias with per-replica shuffling and 5-replica majority voting, reaching 91.7% unanimous verdicts across 1,272 comparisons and surfacing contradictions (19%) for targeted human review instead of exhaustive manual checks.
 
-*   Scaled automated fidelity, pairwise, and holistic ranking checks across BOCR artifacts to improve review consistency and reduce manual validation.
+*   Benchmarked 36 runs: 2 models (GPT-4o, GPT-5.2) x 3 temperatures, 5 prompts iterated with human review.
 
-*   Built reusable Python/R tooling and AWS orchestration to run audit evaluations at scale for multiple model and prompt variants.
+*   **RAG evidence builder (PoC, lead developer):** built an end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring (multi-run averaging, coefficient-of-variation stability checks), hybrid retrieval (ChromaDB + BM25 with Reciprocal Rank Fusion), multi-agent synthesis with mandatory chunk-level citations, on Gemini API with a local Phi-3 fallback.
 
-*   *Tech stack:* Python, R, AWS (S3, Bedrock, SageMaker, Lambda, ECR), Docker, Git, CI/CD.
+*   Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45.
+
+*   Reported failed hypotheses without post-hoc threshold changes: LLM–human quality scores correlated weakly (Spearman rho = 0.19, 95% CI -0.09 to 0.45); chunk-level citations cut the audited hallucination rate from 57.5% to 14.0%, still above the pre-registered 5%.
+
+*   Shipped a React/TypeScript + FastAPI web app with live SSE progress for non-technical analysts, Dockerized, with pytest and CI (mypy, flake8).
+
+*   *Tech stack:* Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3, SageMaker, Lambda, ECR), Docker, GitHub Actions.
 
 
 ### AI/ML Specialist Data Scientist
-**Daiichi-Sankyo** | *Oct 2025 - Dec 2025*
+**Daiichi-Sankyo (Contract)** | *Oct 2025 - Dec 2025*
 
 
 *   Delivered a 3-month Causal AI engagement identifying environmental drivers across hundreds of variables for patient outcomes using Double ML and Causal Forest.
 
 *   Built the data infrastructure and high-performance analytics scripts for Google Cloud deployment.
-
-*   Originally a 12-month engagement shortened due to internal budget restructuring; departed on excellent terms with strong professional references.
 
 *   *Tech stack:* Python, Google Cloud.
 
@@ -48,8 +52,6 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 *   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
 
 *   Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase.
-
-*   Transitioned into the current AI research role after four months of cross-functional delivery to scale advanced LLM and RAG systems.
 
 *   *Tech stack:* R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git.
 
@@ -71,11 +73,9 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 **TFS HealthScience** | *Jun 2022 - May 2023*
 
 
-*   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows and saving the team 3+ years of research effort.
+*   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows.
 
-*   Built regularized logistic regression models to improve predictive performance and support regulatory submission.
-
-*   Delivered propensity-matched comparative analyses and regulatory-ready statistical plans and study reports.
+*   Delivered propensity-score-matched comparative analyses on real-world evidence (RWE), generating comparative evidence without running a new clinical trial, plus regulatory-ready statistical plans and study reports.
 
 *   *Tech stack:* R, SAS, Python, CDISC, OHDSI.
 
@@ -86,82 +86,56 @@ Data Scientist with 5+ years of end-to-end experience across the full ML lifecyc
 
 *   Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements.
 
-*   Led a small team to build a regression model that improved predictive performance by 7% and translated results into RMarkdown reports.
+*   Led a small team to build a regression model that reduced RMSE by 7% and translated results into RMarkdown reports.
 
-*   Applied survival analysis methods to time-to-event outcomes and presented actionable insights to stakeholders.
-
-*   *Tech stack:* R, Python, SAS, RMarkdown.
+*   *Tech stack:* R, Python, SAS, RMarkdown, PyTorch, TensorFlow, MongoDB.
 
 
 
----
 
-## Education
+## Selected Projects
+
+
+**[llm-judge-stats](https://github.com/gondiam/llm-judge-stats)** | *Open-source Python package*
+
+
+*   Statistics to check whether an LLM judge can be trusted: Cohen's/Fleiss' kappa, ICC and F1/MCC with (stratified) bootstrap CIs, sample-size planning for labeling, and position-bias shuffling with majority voting. Tests validated against published values.
+
+*   Applied to the public MT-Bench human judgments: GPT-4 vs. human-majority kappa = 0.41 (95% CI 0.37-0.45) vs. human-human kappa of 0.50, with 15.8% position-inconsistent verdicts.
+
+
+
+## Education & Certifications
 
 
 *   **MSc. Big Data & Data Science** | VIU – Valencia, Remote (2025)
-    *   Advanced training in large-scale data processing, cloud architectures, and AI/ML systems.
 
 *   **BSc. Statistics** | UVa – Valladolid, Spain (2020)
-    *   Strong foundation in statistical modeling, probability theory, and quantitative methods.
 
 
-*Notable Additional Education (see LinkedIn for more):*
-
-
-*   **Explainable AI (XAI)** | DPHi (2023)
-
-*   **Biomedical Image Analysis in Python** | DataCamp (2023)
-
-*   **Deep Learning Online Bootcamp** | DPHi (2021)
-
-*   **Visual Studio Code for Pharma R** | R in Pharma (2023)
-
-*   **Data Analysis with Python** | freeCodeCamp (2023)
-
-*   **Continuous Learning in Data Science** | Various platforms
-
-
----
-
-## Certifications
 
 
 *   **AI Agents Intensive Course** — Google x Kaggle *(2025)*
-    *   Hands-on training designing and deploying AI agent systems with LLMs, tools, memory, and retrieval.
 
 *   **6.86x: Machine Learning with Python – From Linear Models to Deep Learning** — MITx *(2021)*
-    *   Deep dive into linear models, deep learning, and reinforcement learning with hands-on Python projects.
-
-*   **LangChain for LLM Development** — freeCodeCamp *(2023)*
-    *   Practical LLM development with embeddings, prompts, vector search, and generative workflow orchestration.
-
-*   **Google Data Analytics Certificate** — Google *(2023)*
-    *   Foundational analytics training in R, SQL, Python, and visualization.
 
 
----
+*+ More certifications on [LinkedIn](https://www.linkedin.com/in/gdiazamor/).*
+
 
 ## Technical Skills
 
 
-*   **Programming Languages:** Python (LLM APIs, LangChain, FastAPI), R, SQL, PowerShell.
+*   **LLM Evaluation & Statistics:** LLM-as-a-Judge, bias mitigation, pre-registered evaluation protocols, power analysis, bootstrap CIs, inter-rater agreement (Cohen's kappa, ICC), Spearman, F1/MCC, Benjamini-Hochberg.
 
-*   **GenAI & LLMs:** RAG pipelines, embeddings, vector search, prompt engineering, LangChain, LLM-based architectures.
+*   **GenAI & LLMs:** RAG pipelines, hybrid retrieval (dense + BM25, RRF), multi-agent pipelines, embeddings, vector search (ChromaDB), prompt engineering, LangChain, LLM-based architectures.
 
-*   **ML & Data Science:** PyTorch, TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
+*   **Languages & ML:** Python, R, SQL, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
 
-*   **MLOps & Cloud:** Docker, Apache Airflow, AWS, Azure, GCP, Databricks, PySpark, Hadoop.
+*   **MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Databricks, PySpark, Git (GitHub, GitLab), CI/CD.
 
-*   **Data Engineering:** ETL pipelines, FastAPI, OMOP-CDM (OHDSI), WhiteRabbit, Usagi, CDISC standards.
+*   **Data Engineering & Databases:** ETL pipelines, OMOP-CDM (OHDSI), CDISC, MySQL, PostgreSQL, MongoDB, PowerBI, Tableau.
 
-*   **Databases & BI:** MySQL, PostgreSQL, MongoDB, Cassandra, PowerBI, Tableau.
+*   **AI-Assisted Development:** Claude Code, Cursor, Google Antigravity, Warp.
 
-*   **Version Control & Collaboration:** Git, GitHub, GitLab.
-
-*   **Languages:** Spanish (Native), English (Advanced).
-
-
----
-
-References and recommendation letters available upon request.
+*   **Languages:** Spanish (Native), English (professional; working language for 5+ years in international projects).

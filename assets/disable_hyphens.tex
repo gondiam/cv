@@ -1,2 +1,7 @@
 \usepackage[none]{hyphenat}
 \sloppy
+% Compact headings so the CV fits on 2 pages (plain LaTeX, no extra packages)
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}{6pt}{3pt}{\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{5pt}{1pt}{\normalsize\bfseries}}
+\makeatother

@@ -1,16 +1,16 @@
 # {{ contact.name }}
 **{{ titles[lang] }}**
 
+{{ availability[lang] }}
+
 [gdiazamor.ds@gmail.com](mailto:{{ contact.email }}) | [+34693299747](tel:{{ contact.phone }}) | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Portfolio]({{ contact.website }})
 
 
----
 
 ## {{ headers.profile[lang] }}
 
 {{ profile[lang] }}
 
----
 
 ## {{ headers.experience[lang] }}
 
@@ -23,38 +23,33 @@
 {% endfor %}
 {% endfor %}
 
----
+
+## {{ headers.projects[lang] }}
+
+{% for p in projects %}
+**[{{ p.title }}]({{ p.url }})** | *{{ p.tagline[lang] }}*
+
+{% for hl in p.highlights[lang] %}
+*   {{ hl }}
+{% endfor %}
+{% endfor %}
 
 ## {{ headers.education[lang] }}
 
 {% for edu in education.primary %}
 *   {{ edu.title[lang] }}
-    *   {{ edu.description[lang] }}
 {% endfor %}
 
-{{ education.additional_header[lang] }}
-
-{% for edu in education.additional %}
-*   {{ edu[lang] }}
-{% endfor %}
-
----
-
-## {{ headers.certifications[lang] }}
 
 {% for cert in certifications %}
 *   **{{ cert.title[lang] }}** — {{ cert.issuer }} *({{ cert.year }})*
-    *   {{ cert.description[lang] }}
 {% endfor %}
 
----
+{{ certifications_note[lang] }}
+
 
 ## {{ headers.skills[lang] }}
 
 {% for skill in skills %}
 *   {{ skill[lang] }}
 {% endfor %}
-
----
-
-{{ footer.note[lang] }}
