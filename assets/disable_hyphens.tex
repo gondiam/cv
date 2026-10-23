@@ -5,3 +5,5 @@
 \renewcommand\section{\@startsection{section}{1}{\z@}{6pt}{3pt}{\large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}{5pt}{1pt}{\normalsize\bfseries}}
 \makeatother
+% Ragged right: justified text stretches spaces, which PDF parsers read as double spaces
+\AtBeginDocument{\raggedright}

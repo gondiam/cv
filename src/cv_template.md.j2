@@ -3,7 +3,8 @@
 
 {{ availability[lang] }}
 
-[gdiazamor.ds@gmail.com](mailto:{{ contact.email }}) | [+34693299747](tel:{{ contact.phone }}) | [LinkedIn]({{ contact.linkedin }}) | [GitHub]({{ contact.github }}) | [Portfolio]({{ contact.website }})
+[gdiazamor.ds@gmail.com](mailto:{{ contact.email }}) | [+34 693 29 97 47](tel:{{ contact.phone }})\
+LinkedIn: [linkedin.com/in/gdiazamor]({{ contact.linkedin }}) | GitHub: [github.com/gondiam]({{ contact.github }}) | Portfolio: [gondiam.github.io/Gonzalo_Portfolio]({{ contact.website }})
 
 
 
@@ -21,13 +22,16 @@
 {% for hl in job.highlights[lang] %}
 *   {{ hl }}
 {% endfor %}
+{% if job.stack %}
+*Tech stack:* {{ job.stack }}
+{% endif %}
 {% endfor %}
 
 
 ## {{ headers.projects[lang] }}
 
 {% for p in projects %}
-**[{{ p.title }}]({{ p.url }})** | *{{ p.tagline[lang] }}*
+**{{ p.title }}** | *{{ p.tagline[lang] }}* | [{{ p.url | replace('https://', '') }}]({{ p.url }})
 
 {% for hl in p.highlights[lang] %}
 *   {{ hl }}
@@ -45,7 +49,6 @@
 *   **{{ cert.title[lang] }}** — {{ cert.issuer }} *({{ cert.year }})*
 {% endfor %}
 
-{{ certifications_note[lang] }}
 
 
 ## {{ headers.skills[lang] }}
