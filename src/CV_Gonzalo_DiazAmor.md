@@ -17,7 +17,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Ingeniero de Investigación en IA/ML
-**BeWay** | *Jan 2026 - Present*
+**BeWay** | *Jan 2026 - Present* | Remoto
 
 
 *   **LLM-as-a-Judge para auditoría de decisiones:** diseñé un juez que audita la consistencia narrativo-cuantitativa en análisis de decisión multicriterio (BOCR/AHP), mitigando el sesgo de posición con barajado por réplica y voto mayoritario de 5 réplicas.
@@ -37,7 +37,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Data Scientist Especialista AI/ML
-**Daiichi-Sankyo (Contrato)** | *Oct 2025 - Dec 2025*
+**Daiichi-Sankyo (Contrato)** | *Oct 2025 - Dec 2025* | Remoto
 
 
 *   Entregué un proyecto de Causal AI de 3 meses cruzando datos medioambientales de Alemania con ~100.000 pacientes e identificando impulsores de los resultados clínicos entre cientos de variables con Double ML y Causal Forest.
@@ -49,7 +49,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Data Scientist de Comportamiento
-**BeWay** | *Jun 2025 - Oct 2025*
+**BeWay** | *Jun 2025 - Oct 2025* | Remoto
 
 
 *   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
@@ -61,7 +61,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Especialista en Data Science
-**Minsait** | *Nov 2023 - Jun 2025*
+**Minsait** | *Nov 2023 - Jun 2025* | Remoto
 
 
 *   Construí un data lake OMOP-CDM empresarial integrando fuentes clínicas y operativas de 3 grandes hospitales de Madrid.
@@ -75,7 +75,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Data Scientist
-**TFS HealthScience** | *Jun 2022 - May 2023*
+**TFS HealthScience** | *Jun 2022 - May 2023* | Remoto
 
 
 *   Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM.
@@ -87,7 +87,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Data Scientist
-**Animal Data Analytics** | *Sep 2020 - Jun 2022*
+**Animal Data Analytics** | *Sep 2020 - Jun 2022* | Remoto
 
 
 *   Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales.

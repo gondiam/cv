@@ -17,7 +17,7 @@ LinkedIn: [linkedin.com/in/gdiazamor]({{ contact.linkedin }}) | GitHub: [github.
 
 {% for job in experience %}
 ### {{ job.title[lang] }}
-**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}*
+**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}* | {{ 'Remote' if lang == 'en' else 'Remoto' }}
 
 {% for hl in job.highlights[lang] %}
 *   {{ hl }}

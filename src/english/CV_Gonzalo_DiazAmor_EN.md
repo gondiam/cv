@@ -17,7 +17,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### AI/ML Research Engineer
-**BeWay** | *Jan 2026 - Present*
+**BeWay** | *Jan 2026 - Present* | Remote
 
 
 *   **LLM-as-a-Judge for decision audits:** designed a judge that audits narrative–quantitative consistency in multi-criteria decision analyses (BOCR/AHP), mitigating position bias with per-replica shuffling and 5-replica majority voting.
@@ -37,7 +37,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### AI/ML Specialist Data Scientist
-**Daiichi-Sankyo (Contract)** | *Oct 2025 - Dec 2025*
+**Daiichi-Sankyo (Contract)** | *Oct 2025 - Dec 2025* | Remote
 
 
 *   Delivered a 3-month Causal AI engagement linking German environmental data to ~100,000 patients and identifying drivers of patient outcomes across hundreds of variables with Double ML and Causal Forest.
@@ -49,7 +49,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### Behavioral Data Scientist
-**BeWay** | *Jun 2025 - Oct 2025*
+**BeWay** | *Jun 2025 - Oct 2025* | Remote
 
 
 *   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
@@ -61,7 +61,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### Data Science Specialist
-**Minsait** | *Nov 2023 - Jun 2025*
+**Minsait** | *Nov 2023 - Jun 2025* | Remote
 
 
 *   Built an enterprise OMOP-CDM data lake integrating clinical and operational sources from 3 major Madrid hospitals.
@@ -75,7 +75,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### Data Scientist
-**TFS HealthScience** | *Jun 2022 - May 2023*
+**TFS HealthScience** | *Jun 2022 - May 2023* | Remote
 
 
 *   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows.
@@ -87,7 +87,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### Data Scientist
-**Animal Data Analytics** | *Sep 2020 - Jun 2022*
+**Animal Data Analytics** | *Sep 2020 - Jun 2022* | Remote
 
 
 *   Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements.
