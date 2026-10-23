@@ -15,6 +15,55 @@ Las ofertas rotan a diario. Guarda estas búsquedas y activa alertas:
 
 ## Log de búsquedas
 
+### [2026-10-14] Búsqueda #2
+
+Criterios usados (ver PREFERENCIAS.md): 100% remoto, España/UE, senior, preferencia pharma/healthtech, y foco nuevo en **evaluación de LLMs** (posicionamiento: "statistically rigorous LLM evaluation"). Todas las ofertas se comprobaron en la página original o en un agregador fiable el 13–14 oct 2026. **Ninguna publica salario**, así que el umbral de 80k€ hay que confirmarlo en la primera llamada.
+
+#### Prioridad alta
+
+**1. Finom — Senior Data Scientist, AI Evaluation & Quality (Internal AI Agents) ⭐ mejor match**
+- Remoto en Europa (Barcelona aparece entre las ubicaciones). Publicada el 4 sep 2026 y sigue abierta.
+- Rol: evaluación de agentes LLM (RAG, tool use, judges) con base estadística (muestreo, contrastes de hipótesis, varianza). Stack: Python, SQL, Databricks, DeepEval, Claude Code.
+- Antes de aplicar: confirmar la contratación desde España (entidad propia o EOR).
+- Enlace: https://jobs.eu.lever.co/pnlfin/0dc601bf-6b7e-46b2-8faf-3506efe2f862
+- Variante con más peso de producto (aplicar solo a una de las dos): https://jobs.eu.lever.co/pnlfin/527e2cfb-2b97-4f1e-9b78-c6da90b60d9e
+
+**2. Alinia AI — Applied Research Scientist (remoto en España o híbrido en Barcelona)**
+- Rol: evaluación de LLMs en dimensiones de alineamiento, datos sintéticos, SFT y DPO, LLM-as-a-judge.
+- Huecos: piden entrenamiento de LLMs como "strict requirement" y publicaciones. Se cubren con el proyecto de PROMPT_PROYECTO_SFT_DPO_EVAL.md. Aplicar ya y enseñar el repo cuando esté.
+- Enlace: https://careers.speedinvest.com/companies/alinia-ai-2/jobs/59950640-applied-research-scientist
+
+**3. Docplanner — Senior Data Scientist (healthtech)**
+- España elegible, "remote friendly". 5+ años, estadística, evaluación de modelos, MLOps. LLMs y agentes como bonus.
+- Enlace: https://jobs.ashbyhq.com/docplanner/5ba9ff67-5b2b-4893-b715-0fb672cefa7d/application
+
+**4. Axmed — AI Engineer (Agentic Systems) (healthtech/pharma)**
+- "Spain, Remote", 100% remoto. Marketplace de medicamentos para proveedores de salud en países de renta baja y media.
+- Rol: agentes LLM en producción, tool use, LangGraph/LangChain, human-in-the-loop, monitorización. No menciona evals: ofrecer la evaluación como valor añadido.
+- Publicada el 5 ago, actualizada el 2 oct. Salario y seniority no publicados.
+- Enlace: https://axmed.teamtailor.com/jobs/8175859-ai-engineer
+
+#### Prioridad media
+
+| Empresa | Puesto | Por qué / pegas | Enlace |
+|---|---|---|---|
+| Mastra | AI Engineer | 100% remoto con horario de NA/Europa. Evals y benchmarking de agentes como núcleo. Muy orientado a ingeniería de producto (TypeScript). | https://jobs.ashbyhq.com/mastra/531a3fe8-556f-4b83-bee7-20374f67f980 |
+| John Snow Labs | ML Engineer – LLMs (contract) | Healthcare NLP, remoto mundial, $30–60/h. Pide vLLM, cuantización y Axolotl. Posible ghost job: verificar en su web. | https://www.remoterocketship.com/us/company/johnsnowlabs/jobs/machine-learning-engineer-large-language-models-worldwide-remote/ |
+| RavenPack | Senior ML / Search & LLM Ops (contractor) | Solo España, 3–6 meses. Usan Opik y SageMaker. Pide vLLM, Triton y PEFT. Plazo hasta el 4 nov. | https://himalayas.app/companies/ravenpack/jobs/senior-ml-search-llm-ops-contractor |
+
+#### Excepción no remota (decisión: aplicar igualmente)
+
+**AstraZeneca — Senior Scientist, Clinical Agentic AI (Barcelona, 3 días/semana presencial)**
+- El contenido encaja al 100%: IA clínica, RAG, agentes, evaluación, GxP. Plantear la ubicación desde el primer contacto. Cierra el 30 nov 2026.
+- Enlace: https://astrazeneca.wd3.myworkdayjobs.com/broadbean_external/job/Spain---Barcelona/Senior-Scientist--Clinical-Agentic-AI_R-261315
+
+#### Descartadas
+- CrowdStrike Sr DS GenAI: pide 8+ años y entrenar LLMs en GPU.
+- Roles de "Clinical Data Scientist" (Precision, ICON): devuelven al perfil de investigación clínica.
+- team.blue: la oferta está cerrada.
+
+---
+
 ### [2026-08-03] Búsqueda #1
 
 Criterios usados (ver PREFERENCIAS.md): 100% remoto, España/UE, mid-senior, salario desde 80.000 €/año bruto, preferencia pharma/healthtech.
