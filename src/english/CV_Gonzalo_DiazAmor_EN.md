@@ -24,7 +24,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 *   Reached 91.7% unanimous verdicts across 1,272 comparisons, routing contradictions (19%) to targeted human review instead of exhaustive manual checks; benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, iterating 5 prompts with human review.
 
-*   **RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback).
+*   **RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25, RRF), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback).
 
 *   Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45. Generalized these statistics into the open-source package llm-judge-stats.
 
