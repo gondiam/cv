@@ -141,3 +141,22 @@ Tercera vez 87 con cambios sustanciales entre medias: la nota no discrimina ya. 
 - **Partir MLOps & Cloud en dos líneas, describir BeWay/Animal Data, detallar el BSc:** cada uno añade 1–3 líneas y el CV ya va al límite de 2 páginas.
 - **llm-judge-stats en la cabecera:** ya está GitHub; redundante.
 - **Quitar Python/R de los Tech stack antiguos:** algunos ATS calculan años de experiencia por skill a partir de los roles; repetirlos suma, no resta.
+
+---
+
+## 7. Cuarta auditoría ATS (2026-10-23) — 88/100
+
+87 → 87 → 87 → 88. La herramienta ya se contradice consigo misma: teléfono (antes "pon espacios", ahora "quítalos"), bullet de resultados de BeWay (antes "absorbe el de 36 runs", ahora "sepáralo"), resumen (antes "mete el 91,7%", ahora "recórtalo a 2 líneas"). Se considera cerrada la iteración con esta herramienta.
+
+### Hacer (coste cero de espacio)
+
+- **"RRF" en el bullet del RAG:** `hybrid retrieval (dense + BM25, RRF)`, igual que en Skills.
+- **Modalidad junto a las fechas** (`Remote` / ciudad) en cada puesto, si se confirma cuáles fueron en remoto. Va en la misma línea, no ocupa espacio.
+
+### Descartar
+
+- Artefactos de extracción ("•" suelto, "•Built"): cuarta vez; no existen en el PDF.
+- Teléfono sin espacios, `https://` en los enlaces, partir/fusionar bullets de BeWay, recortar el resumen: contradicen auditorías anteriores.
+- Mover "AI-Assisted Development": ya está al final, solo por delante de Languages.
+- Quitar del bloque de Skills lo que aparece en los Tech stack: Skills es lo que más pesa en el matching por keywords.
+- Descripción de cada empresa, URLs de credenciales, stack de la tesis: añaden líneas y el CV va al límite de 2 páginas.
