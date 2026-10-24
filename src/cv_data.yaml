@@ -25,8 +25,8 @@ headers:
     en: "Relevant Experience"
     es: "Experiencia Relevante"
   education:
-    en: "Education & Certifications"
-    es: "Educación y Certificaciones"
+    en: "Education"
+    es: "Educación"
   certifications:
     en: "Certifications"
     es: "Certificaciones"
@@ -200,6 +200,10 @@ certifications:
     description:
       en: "Deep dive into linear models, deep learning, and reinforcement learning with hands-on Python projects."
       es: "Profundización en modelos lineales, deep learning y aprendizaje por refuerzo con proyectos prácticos en Python."
+
+certifications_more:
+  en: "More certifications on"
+  es: "Más certificaciones en"
 
 
 skills:

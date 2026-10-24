@@ -42,12 +42,16 @@ LinkedIn: [linkedin.com/in/gdiazamor]({{ contact.linkedin }}) | GitHub: [github.
 
 {% for edu in education.primary %}
 *   {{ edu.title[lang] }}
-{% endfor %}
+{%- endfor %}
 
+## {{ headers.certifications[lang] }}
 
 {% for cert in certifications %}
 *   **{{ cert.title[lang] }}** — {{ cert.issuer }} *({{ cert.year }})*
-{% endfor %}
+{%- endfor %}
+*   *{{ certifications_more[lang] }} [LinkedIn]({{ contact.linkedin }}).*
+
+
 
 
 
@@ -55,4 +59,4 @@ LinkedIn: [linkedin.com/in/gdiazamor]({{ contact.linkedin }}) | GitHub: [github.
 
 {% for skill in skills %}
 *   {{ skill[lang] }}
-{% endfor %}
+{%- endfor %}

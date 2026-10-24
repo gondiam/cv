@@ -118,19 +118,19 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 
-## Educación y Certificaciones
+## Educación
 
 
 *   **Máster en Big Data & Data Science** | VIU (2025) · TFM: Optimización de estrategias de trading utilizando Deep Learning y Análisis Cuantitativo
-
 *   **Grado en Estadística** | UVa – Valladolid, España (2020)
 
-
+## Certificaciones
 
 
 *   **Curso Intensivo de Agentes IA** — Google x Kaggle *(2025)*
-
 *   **6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** — MITx *(2021)*
+*   *Más certificaciones en [LinkedIn](https://www.linkedin.com/in/gdiazamor/).*
+
 
 
 
@@ -139,17 +139,10 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 *   **Evaluación de LLMs y Estadística:** LLM-as-a-Judge, mitigación de sesgos, protocolos preregistrados, análisis de potencia, IC bootstrap, acuerdo entre evaluadores (kappa de Cohen, ICC), Spearman, F1/MCC, Benjamini-Hochberg.
-
 *   **GenAI & LLMs:** Pipelines RAG, recuperación híbrida (densa + BM25, RRF), pipelines multiagente, embeddings, búsqueda vectorial (ChromaDB), ingeniería de prompts, LangChain, arquitecturas basadas en LLMs.
-
 *   **Lenguajes & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo.
-
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD.
-
 *   **Datos & BBDD:** ETL, MySQL, PostgreSQL, MongoDB.
-
 *   **Estándares de datos clínicos:** CDISC (SDTM, ADaM), OMOP-CDM (OHDSI).
-
 *   **Desarrollo Asistido por IA:** Claude Code, Cursor, Google Antigravity, Warp.
-
 *   **Idiomas:** Español (Nativo), Inglés (profesional; idioma de trabajo 5+ años en proyectos internacionales).

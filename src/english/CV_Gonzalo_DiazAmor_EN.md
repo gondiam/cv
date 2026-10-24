@@ -118,19 +118,19 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 
-## Education & Certifications
+## Education
 
 
 *   **MSc. Big Data & Data Science** | VIU (2025) · Thesis: Trading strategy optimization with Deep Learning & quantitative analysis
-
 *   **BSc. Statistics** | UVa – Valladolid, Spain (2020)
 
-
+## Certifications
 
 
 *   **AI Agents Intensive Course** — Google x Kaggle *(2025)*
-
 *   **6.86x: Machine Learning with Python – From Linear Models to Deep Learning** — MITx *(2021)*
+*   *More certifications on [LinkedIn](https://www.linkedin.com/in/gdiazamor/).*
+
 
 
 
@@ -139,17 +139,10 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 *   **LLM Evaluation & Statistics:** LLM-as-a-Judge, bias mitigation, pre-registered evaluation protocols, power analysis, bootstrap CIs, inter-rater agreement (Cohen's kappa, ICC), Spearman, F1/MCC, Benjamini-Hochberg.
-
 *   **GenAI & LLMs:** RAG pipelines, hybrid retrieval (dense + BM25, RRF), multi-agent pipelines, embeddings, vector search (ChromaDB), prompt engineering, LangChain, LLM-based architectures.
-
 *   **Languages & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
-
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD.
-
 *   **Data Engineering & Databases:** ETL pipelines, MySQL, PostgreSQL, MongoDB.
-
 *   **Clinical Data Standards:** CDISC (SDTM, ADaM), OMOP-CDM (OHDSI).
-
 *   **AI-Assisted Development:** Claude Code, Cursor, Google Antigravity, Warp.
-
 *   **Languages:** Spanish (Native), English (professional; working language for 5+ years in international projects).
