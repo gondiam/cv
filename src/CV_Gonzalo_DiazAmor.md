@@ -17,12 +17,16 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Ingeniero de Investigación en IA/ML
-**BeWay** | *Jan 2026 - Present* | Remoto
+**BeWay (reincorporación por invitación)** | *Jan 2026 - Present* | Remoto
 
 
 *   **LLM-as-a-Judge para auditoría de decisiones:** diseñé un juez que audita la consistencia narrativo-cuantitativa en análisis de decisión multicriterio (BOCR/AHP), mitigando el sesgo de posición con barajado por réplica y voto mayoritario de 5 réplicas.
 
-*   Logré un 91,7% de veredictos unánimes en 1.272 comparaciones, derivando las contradicciones (19%) a revisión humana dirigida; comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, iterando 5 prompts con revisión humana.
+*   Logré un 91,7% de veredictos unánimes entre réplicas en 1.272 comparaciones, demostrando que el juez era lo bastante estable para usarlo a escala.
+
+*   Detecté contradicciones narrativo-cuantitativas en el 19% de las comparaciones y derivé solo esas a revisión humana dirigida, sustituyendo la revisión manual exhaustiva.
+
+*   Comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, refinando el prompt en 5 iteraciones con revisión humana.
 
 *   **RAG evidence builder (PoC, desarrollador principal):** pipeline end-to-end con curación humana de fuentes: ingesta multiformato, puntuación de fuentes con LLM-as-a-Judge, recuperación híbrida (densa + BM25, RRF) y síntesis multiagente con citas obligatorias a nivel de chunk (orquestación con LangChain, Gemini API, Phi-3 local de respaldo).
 
@@ -33,14 +37,16 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 *   Web app React/TypeScript + FastAPI (SSE) para analistas no técnicos, dockerizada, con pytest y CI.
 
 
-*Tech stack:* Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3, SageMaker, Lambda, ECR), Docker, GitHub Actions.
+*Tech stack:* Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3), Docker, GitHub Actions.
 
 
 ### Data Scientist Especialista AI/ML
 **Daiichi-Sankyo (Contrato)** | *Oct 2025 - Dec 2025* | Remoto
 
 
-*   Entregué un proyecto de Causal AI de 3 meses cruzando datos medioambientales de Alemania con ~100.000 pacientes e identificando impulsores de los resultados clínicos entre cientos de variables con Double ML y Causal Forest.
+*   Lideré la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest.
+
+*   Diseñé el marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos.
 
 *   Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud.
 
@@ -68,7 +74,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream.
 
-*   Desplegué más de 100 modelos NLP/ML y herramientas de procesamiento de datos en producción con Docker y Airflow, reduciendo handoffs manuales.
+*   Desplegué más de 100 modelos NLP/ML y herramientas en producción con Docker y Airflow, reduciendo handoffs manuales.
 
 
 *Tech stack:* R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.

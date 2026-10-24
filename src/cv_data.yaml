@@ -45,21 +45,25 @@ experience:
       en: "AI/ML Research Engineer"
       es: "Ingeniero de Investigación en IA/ML"
     company:
-      en: "BeWay"
-      es: "BeWay"
+      en: "BeWay (rejoined by invitation)"
+      es: "BeWay (reincorporación por invitación)"
     period: "Jan 2026 - Present"
-    stack: "Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3, SageMaker, Lambda, ECR), Docker, GitHub Actions."
+    stack: "Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3), Docker, GitHub Actions."
     highlights:
       en:
         - "**LLM-as-a-Judge for decision audits:** designed a judge that audits narrative–quantitative consistency in multi-criteria decision analyses (BOCR/AHP), mitigating position bias with per-replica shuffling and 5-replica majority voting."
-        - "Reached 91.7% unanimous verdicts across 1,272 comparisons, routing contradictions (19%) to targeted human review instead of exhaustive manual checks; benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, iterating 5 prompts with human review."
+        - "Reached 91.7% unanimous verdicts across replicas over 1,272 comparisons, showing the judge was stable enough to trust at scale."
+        - "Flagged 19% of comparisons as narrative–quantitative contradictions and routed only those to targeted human review, replacing exhaustive manual checks."
+        - "Benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, refining the prompt over 5 human-reviewed iterations."
         - "**RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25, RRF), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback)."
         - "Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45. Generalized these statistics into the open-source package llm-judge-stats."
         - "Reported failed hypotheses without post-hoc threshold changes: LLM–human quality scores correlated weakly (Spearman rho = 0.19, 95% CI -0.09 to 0.45); chunk-level citations cut the audited hallucination rate from 57.5% to 14.0%, still above the pre-registered 5%."
         - "Shipped a React/TypeScript + FastAPI web app with live SSE progress for non-technical analysts, Dockerized, with pytest and CI (mypy, flake8)."
       es:
         - "**LLM-as-a-Judge para auditoría de decisiones:** diseñé un juez que audita la consistencia narrativo-cuantitativa en análisis de decisión multicriterio (BOCR/AHP), mitigando el sesgo de posición con barajado por réplica y voto mayoritario de 5 réplicas."
-        - "Logré un 91,7% de veredictos unánimes en 1.272 comparaciones, derivando las contradicciones (19%) a revisión humana dirigida; comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, iterando 5 prompts con revisión humana."
+        - "Logré un 91,7% de veredictos unánimes entre réplicas en 1.272 comparaciones, demostrando que el juez era lo bastante estable para usarlo a escala."
+        - "Detecté contradicciones narrativo-cuantitativas en el 19% de las comparaciones y derivé solo esas a revisión humana dirigida, sustituyendo la revisión manual exhaustiva."
+        - "Comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, refinando el prompt en 5 iteraciones con revisión humana."
         - "**RAG evidence builder (PoC, desarrollador principal):** pipeline end-to-end con curación humana de fuentes: ingesta multiformato, puntuación de fuentes con LLM-as-a-Judge, recuperación híbrida (densa + BM25, RRF) y síntesis multiagente con citas obligatorias a nivel de chunk (orquestación con LangChain, Gemini API, Phi-3 local de respaldo)."
         - "Preregistré el protocolo de evaluación (hipótesis confirmatorias vs. exploratorias, análisis de potencia, IC bootstrap, Benjamini-Hochberg): la selección de fuentes LLM–experto cumplió el criterio (F1 = 0,762 vs. umbral 0,70) tras detectar un bug de caché que producía un F1 falso de 0,45. Generalicé esta estadística en el paquete open source llm-judge-stats."
         - "Reporté las hipótesis no cumplidas sin modificar umbrales a posteriori: la correlación LLM–humano en calidad fue débil (Spearman rho = 0,19, IC95% -0,09 a 0,45); las citas a nivel de chunk bajaron la tasa de alucinación auditada del 57,5% al 14,0%, aún por encima del 5% preregistrado."
@@ -75,10 +79,12 @@ experience:
     stack: "Python, Google Cloud."
     highlights:
       en:
-        - "Delivered a 3-month Causal AI engagement linking German environmental data to ~100,000 patients and identifying drivers of patient outcomes across hundreds of variables with Double ML and Causal Forest."
+        - "Led the discovery phase of a Causal AI engagement linking German environmental data to ~100,000 patients, screening hundreds of candidate drivers of patient outcomes with Double ML and Causal Forest."
+        - "Designed the causal analysis framework (confounder selection, estimation strategy) that set the methodology for the subsequent effect-estimation phase."
         - "Built the data infrastructure and high-performance analytics scripts for Google Cloud deployment."
       es:
-        - "Entregué un proyecto de Causal AI de 3 meses cruzando datos medioambientales de Alemania con ~100.000 pacientes e identificando impulsores de los resultados clínicos entre cientos de variables con Double ML y Causal Forest."
+        - "Lideré la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest."
+        - "Diseñé el marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos."
         - "Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud."
   - id: "behavioral_ds_beway"
     title:
@@ -109,11 +115,11 @@ experience:
       en:
         - "Built an enterprise OMOP-CDM data lake integrating clinical and operational sources from 3 major Madrid hospitals."
         - "Owned RESTful ML/AI inference APIs with FastAPI, enabling embeddings, vector search, and LLM-powered analytics for downstream applications."
-        - "Deployed 100+ NLP/ML models and data-processing tools in production with Docker and Airflow, reducing manual handoffs."
+        - "Deployed 100+ NLP/ML models and tools in production with Docker and Airflow, reducing manual handoffs."
       es:
         - "Construí un data lake OMOP-CDM empresarial integrando fuentes clínicas y operativas de 3 grandes hospitales de Madrid."
         - "Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream."
-        - "Desplegué más de 100 modelos NLP/ML y herramientas de procesamiento de datos en producción con Docker y Airflow, reduciendo handoffs manuales."
+        - "Desplegué más de 100 modelos NLP/ML y herramientas en producción con Docker y Airflow, reduciendo handoffs manuales."
   - id: "ds_tfs"
     title:
       en: "Data Scientist"
