@@ -4,7 +4,7 @@
 Palencia, España (CET) · Remoto · Abierto a EOR o contractor
 
 [gdiazamor.ds@gmail.com](mailto:gdiazamor.ds@gmail.com) | [+34 693 29 97 47](tel:+34693299747)\
-LinkedIn: [linkedin.com/in/gdiazamor](https://www.linkedin.com/in/gdiazamor/) | GitHub: [github.com/gondiam](https://github.com/gondiam) | Portfolio: [gondiam.github.io/Gonzalo_Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
+[linkedin.com/in/gdiazamor](https://www.linkedin.com/in/gdiazamor/) | [github.com/gondiam](https://github.com/gondiam) | [gondiam.github.io/Gonzalo_Portfolio](https://gondiam.github.io/Gonzalo_Portfolio)
 
 
 
