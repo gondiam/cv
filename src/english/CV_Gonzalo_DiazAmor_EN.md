@@ -20,6 +20,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 **BeWay (rejoined by invitation)** | *Jan 2026 - Present* | Remote
 
 
+
 *   **LLM-as-a-Judge for decision audits:** designed a judge that audits narrative–quantitative consistency in multi-criteria decision analyses (BOCR/AHP), mitigating position bias with per-replica shuffling and 5-replica majority voting.
 
 *   Reached 91.7% unanimous verdicts across replicas over 1,272 comparisons, showing the judge was stable enough to trust at scale.
@@ -44,6 +45,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 **Daiichi-Sankyo (Contract)** | *Oct 2025 - Dec 2025* | Remote
 
 
+
 *   Led the discovery phase of a Causal AI engagement linking German environmental data to ~100,000 patients, screening hundreds of candidate drivers of patient outcomes with Double ML and Causal Forest.
 
 *   Designed the causal analysis framework (confounder selection, estimation strategy) that set the methodology for the subsequent effect-estimation phase.
@@ -58,6 +60,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 **BeWay** | *Jun 2025 - Oct 2025* | Remote
 
 
+
 *   Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions.
 
 *   Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase.
@@ -68,6 +71,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 ### Data Science Specialist
 **Minsait** | *Nov 2023 - Jun 2025* | Remote
+
 
 
 *   Built an enterprise OMOP-CDM data lake integrating clinical and operational sources from 3 major Madrid hospitals.
@@ -84,6 +88,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 **TFS HealthScience** | *Jun 2022 - May 2023* | Remote
 
 
+
 *   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows.
 
 *   Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, avoiding a new clinical trial, plus regulatory-ready statistical plans and study reports.
@@ -93,12 +98,19 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 ### Data Scientist
-**Animal Data Analytics** | *Sep 2020 - Jun 2022* | Remote
+**Animal Data Analytics (formerly PigCHAMP Pro Europa)** | *Sep 2020 - Jun 2022* | Remote
+
+*Segovia-based provider of herd-management software, benchmarking, and data science services for the swine and animal health industry, serving international clients.*
 
 
-*   Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements.
 
-*   Led a 2-person team to build a regression model that reduced RMSE by 7%, reported in RMarkdown.
+*   Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements, working remotely in English.
+
+*   Led a 2-person team to build a regression model that reduced RMSE by 7% vs. the baseline model, with fully reproducible reporting in RMarkdown.
+
+*   Co-authored peer-reviewed research as second author (*Porcine Health Management*, 2023), owning data curation and analysis: applied unsupervised ML (PAM clustering, silhouette-based model selection in R) to electronic-feeder data from 585 sows and 1,058 lactations, identifying 5 feeding patterns.
+
+*   Quantified the effect of those feeding patterns on reproductive outcomes with GLMMs and non-parametric tests in SAS.
 
 
 *Tech stack:* R, Python, SAS, RMarkdown, PyTorch, TensorFlow, MongoDB.

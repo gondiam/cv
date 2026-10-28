@@ -18,6 +18,9 @@
 {% for job in experience %}
 ### {{ job.title[lang] }}
 **{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}* | {{ 'Remote' if lang == 'en' else 'Remoto' }}
+{% if job.description %}
+*{{ job.description[lang] }}*
+{% endif %}
 
 {% for hl in job.highlights[lang] %}
 *   {{ hl }}

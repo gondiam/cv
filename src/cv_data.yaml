@@ -141,17 +141,24 @@ experience:
       en: "Data Scientist"
       es: "Data Scientist"
     company:
-      en: "Animal Data Analytics"
-      es: "Animal Data Analytics"
+      en: "Animal Data Analytics (formerly PigCHAMP Pro Europa)"
+      es: "Animal Data Analytics (antes PigCHAMP Pro Europa)"
     period: "Sep 2020 - Jun 2022"
+    description:
+      en: "Segovia-based provider of herd-management software, benchmarking, and data science services for the swine and animal health industry, serving international clients."
+      es: "Empresa de Segovia que ofrece software de gestión de granjas, benchmarking y servicios de data science para el sector porcino y de salud animal, con clientes internacionales."
     stack: "R, Python, SAS, RMarkdown, PyTorch, TensorFlow, MongoDB."
     highlights:
       en:
-        - "Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements."
-        - "Led a 2-person team to build a regression model that reduced RMSE by 7%, reported in RMarkdown."
+        - "Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements, working remotely in English."
+        - "Led a 2-person team to build a regression model that reduced RMSE by 7% vs. the baseline model, with fully reproducible reporting in RMarkdown."
+        - "Co-authored peer-reviewed research as second author (*Porcine Health Management*, 2023), owning data curation and analysis: applied unsupervised ML (PAM clustering, silhouette-based model selection in R) to electronic-feeder data from 585 sows and 1,058 lactations, identifying 5 feeding patterns."
+        - "Quantified the effect of those feeding patterns on reproductive outcomes with GLMMs and non-parametric tests in SAS."
       es:
-        - "Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales."
-        - "Lideré un equipo de 2 personas para construir un modelo de regresión que redujo el RMSE en un 7%, con informes en RMarkdown."
+        - "Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales, trabajando en remoto y en inglés."
+        - "Lideré un equipo de 2 personas para construir un modelo de regresión que redujo el RMSE un 7% frente al modelo base, con informes totalmente reproducibles en RMarkdown."
+        - "Segundo autor de investigación revisada por pares (*Porcine Health Management*, 2023), responsable de la curación y el análisis de datos: apliqué ML no supervisado (clustering PAM, selección de modelo por silhouette en R) a datos de comederos electrónicos de 585 cerdas y 1.058 lactaciones, identificando 5 patrones de alimentación."
+        - "Cuantifiqué el efecto de esos patrones sobre los resultados reproductivos con GLMMs y tests no paramétricos en SAS."
 projects:
   - title: "llm-judge-stats"
     url: "https://github.com/gondiam/llm-judge-stats"
