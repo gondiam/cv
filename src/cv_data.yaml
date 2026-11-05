@@ -172,6 +172,18 @@ projects:
       es:
         - "Estadística para comprobar si un juez LLM es fiable: kappa de Cohen/Fleiss, ICC, F1/MCC con IC bootstrap, tamaño muestral y barajado contra el sesgo de posición; tests validados contra valores publicados."
         - "Aplicado a los juicios humanos públicos de MT-Bench: kappa GPT-4 vs. mayoría humana = 0,41 (IC95% 0,37-0,45) frente a un kappa humano-humano de 0,50, con un 15,8% de veredictos inconsistentes por posición."
+  - title: "sft-dpo-eval"
+    url: "https://github.com/gondiam/sft-dpo-eval"
+    tagline:
+      en: "Preregistered LLM post-training study"
+      es: "Estudio preregistrado de post-entrenamiento de LLMs"
+    highlights:
+      en:
+        - "Fine-tuned Qwen3-1.7B with SFT and DPO (LoRA, TRL) on PubMedQA across 3 seeds, with the analysis preregistered before training: paired comparisons, 95% CIs and Holm correction, using llm-judge-stats."
+        - "SFT raised accuracy from 38.6% to 71.7% (+33.1 points, 95% CI 27.4-38.9). DPO added no improvement (-1.0 point) and was reported as a null result; also quantified a 7-point MMLU cost, driven mostly by repetition loops."
+      es:
+        - "Fine-tuning de Qwen3-1.7B con SFT y DPO (LoRA, TRL) en PubMedQA, con 3 semillas y análisis preregistrado antes de entrenar: comparaciones pareadas, IC 95% y corrección de Holm, usando llm-judge-stats."
+        - "El SFT subió el acierto del 38,6% al 71,7% (+33,1 puntos, IC95% 27,4-38,9). El DPO no aportó mejora (-1,0 punto) y se publicó como resultado nulo; además, cuantifiqué un coste de 7 puntos en MMLU, atribuible sobre todo a bucles de repetición."
 
 education:
   primary:

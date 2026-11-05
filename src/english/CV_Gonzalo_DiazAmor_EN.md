@@ -129,6 +129,14 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 *   Applied to the public MT-Bench human judgments: GPT-4 vs. human-majority kappa = 0.41 (95% CI 0.37-0.45) vs. human-human kappa of 0.50, with 15.8% position-inconsistent verdicts.
 
 
+**sft-dpo-eval** | *Preregistered LLM post-training study* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
+
+
+*   Fine-tuned Qwen3-1.7B with SFT and DPO (LoRA, TRL) on PubMedQA across 3 seeds, with the analysis preregistered before training: paired comparisons, 95% CIs and Holm correction, using llm-judge-stats.
+
+*   SFT raised accuracy from 38.6% to 71.7% (+33.1 points, 95% CI 27.4-38.9). DPO added no improvement (-1.0 point) and was reported as a null result; also quantified a 7-point MMLU cost, driven mostly by repetition loops.
+
+
 
 ## Education
 
