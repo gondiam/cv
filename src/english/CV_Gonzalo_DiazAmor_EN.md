@@ -129,12 +129,14 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 *   Applied to the public MT-Bench human judgments: GPT-4 vs. human-majority kappa = 0.41 (95% CI 0.37-0.45) vs. human-human kappa of 0.50, with 15.8% position-inconsistent verdicts.
 
 
-**sft-dpo-eval** | *Preregistered LLM post-training study* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
+**sft-dpo-eval** | *Pre-registered post-training study* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
 
 
-*   Fine-tuned Qwen3-1.7B with SFT and DPO (LoRA, TRL) on PubMedQA across 3 seeds, with the analysis preregistered before training: paired comparisons, 95% CIs and Holm correction, using llm-judge-stats.
+*   Fine-tuned Qwen3-1.7B on PubMedQA with SFT followed by DPO (LoRA, TRL) on a free Kaggle T4 GPU, committing the analysis plan before any training run.
 
-*   SFT raised accuracy from 38.6% to 71.7% (+33.1 points, 95% CI 27.4-38.9). DPO added no improvement (-1.0 point) and was reported as a null result; also quantified a 7-point MMLU cost, driven mostly by repetition loops.
+*   SFT raised accuracy from 38.6% to 71.7% (+33.1 pts, 95% CI 27.4–38.9). DPO added no gain (–1.0 pt) and was reported as a null result. An exploratory analysis traced a ~7-pt MMLU drop mainly to repetition loops.
+
+*   Three seeds, paired comparisons with 95% CIs and Holm correction, run with llm-judge-stats.
 
 
 
@@ -159,7 +161,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 
 *   **LLM Evaluation & Statistics:** LLM-as-a-Judge, bias mitigation, pre-registered evaluation protocols, power analysis, bootstrap CIs, inter-rater agreement (Cohen's kappa, ICC), Spearman, F1/MCC, Benjamini-Hochberg.
-*   **GenAI & LLMs:** RAG pipelines, hybrid retrieval (dense + BM25, RRF), multi-agent pipelines, embeddings, vector search (ChromaDB), prompt engineering, LangChain, LLM-based architectures.
+*   **GenAI & LLMs:** RAG pipelines, hybrid retrieval (dense + BM25, RRF), multi-agent pipelines, embeddings, vector search (ChromaDB), prompt engineering, LangChain, LLM-based architectures, LLM fine-tuning (SFT, DPO, LoRA, TRL).
 *   **Languages & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling.
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD.
 *   **Data Engineering & Databases:** ETL pipelines, MySQL, PostgreSQL, MongoDB.

@@ -129,12 +129,14 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 *   Aplicado a los juicios humanos públicos de MT-Bench: kappa GPT-4 vs. mayoría humana = 0,41 (IC95% 0,37-0,45) frente a un kappa humano-humano de 0,50, con un 15,8% de veredictos inconsistentes por posición.
 
 
-**sft-dpo-eval** | *Estudio preregistrado de post-entrenamiento de LLMs* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
+**sft-dpo-eval** | *Estudio preregistrado de post-entrenamiento* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
 
 
-*   Fine-tuning de Qwen3-1.7B con SFT y DPO (LoRA, TRL) en PubMedQA, con 3 semillas y análisis preregistrado antes de entrenar: comparaciones pareadas, IC 95% y corrección de Holm, usando llm-judge-stats.
+*   Fine-tuning de Qwen3-1.7B en PubMedQA con SFT seguido de DPO (LoRA, TRL) en una GPU T4 gratuita de Kaggle, fijando el plan de análisis antes de cualquier entrenamiento.
 
-*   El SFT subió el acierto del 38,6% al 71,7% (+33,1 puntos, IC95% 27,4-38,9). El DPO no aportó mejora (-1,0 punto) y se publicó como resultado nulo; además, cuantifiqué un coste de 7 puntos en MMLU, atribuible sobre todo a bucles de repetición.
+*   El SFT subió el acierto del 38,6% al 71,7% (+33,1 pts, IC95% 27,4–38,9). El DPO no aportó mejora (–1,0 pt) y se publicó como resultado nulo. Un análisis exploratorio atribuyó la caída de ~7 pts en MMLU principalmente a bucles de repetición.
+
+*   Tres semillas, comparaciones pareadas con IC 95% y corrección de Holm, ejecutadas con llm-judge-stats.
 
 
 
@@ -159,7 +161,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 *   **Evaluación de LLMs y Estadística:** LLM-as-a-Judge, mitigación de sesgos, protocolos preregistrados, análisis de potencia, IC bootstrap, acuerdo entre evaluadores (kappa de Cohen, ICC), Spearman, F1/MCC, Benjamini-Hochberg.
-*   **GenAI & LLMs:** Pipelines RAG, recuperación híbrida (densa + BM25, RRF), pipelines multiagente, embeddings, búsqueda vectorial (ChromaDB), ingeniería de prompts, LangChain, arquitecturas basadas en LLMs.
+*   **GenAI & LLMs:** Pipelines RAG, recuperación híbrida (densa + BM25, RRF), pipelines multiagente, embeddings, búsqueda vectorial (ChromaDB), ingeniería de prompts, LangChain, arquitecturas basadas en LLMs, fine-tuning de LLMs (SFT, DPO, LoRA, TRL).
 *   **Lenguajes & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo.
 *   **MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD.
 *   **Datos & BBDD:** ETL, MySQL, PostgreSQL, MongoDB.
