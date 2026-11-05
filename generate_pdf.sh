@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 echo "🔄 Construyendo archivos Markdown desde cv_data.yaml..."
 python3 src/build_cv.py
 echo "🔄 Generando CVs en progreso..."
