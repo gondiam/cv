@@ -1,0 +1,251 @@
+contact:
+  name: "Gonzalo Díaz Amor"
+  email: "gdiazamor.ds@gmail.com"
+  phone: "+34693299747"
+  linkedin: "https://www.linkedin.com/in/gdiazamor/"
+  github: "https://github.com/gondiam"
+  website: "https://gondiam.github.io/Gonzalo_Portfolio"
+  location:
+    en: "Spain"
+    es: "España"
+
+titles:
+  en: "Senior Data Scientist — LLM Evaluation & Statistical/Causal ML · Healthcare & Pharma"
+  es: "Senior Data Scientist — Evaluación de LLMs y ML Estadístico/Causal · Salud y Farma"
+
+availability:
+  en: "Palencia, Spain (CET) · Remote · Open to EOR or contractor"
+  es: "Palencia, España (CET) · Remoto · Abierto a EOR o contractor"
+
+headers:
+  profile:
+    en: "Professional Summary"
+    es: "Resumen Profesional"
+  experience:
+    en: "Relevant Experience"
+    es: "Experiencia Relevante"
+  education:
+    en: "Education"
+    es: "Educación"
+  certifications:
+    en: "Certifications"
+    es: "Certificaciones"
+  projects:
+    en: "Selected Projects"
+    es: "Proyectos Destacados"
+  skills:
+    en: "Technical Skills"
+    es: "Habilidades Técnicas"
+profile:
+  en: "Data Scientist with 6 years across pharma, healthtech, and mobility, specialized in LLM evaluation (LLM-as-a-Judge, RAG) and statistical/causal ML (Double ML, Causal Forest, survival analysis). Production deployments on AWS and GCP with FastAPI, Docker, and Airflow, plus clinical programming (CDISC) for EMA submissions."
+  es: "Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en evaluación de LLMs (LLM-as-a-Judge, RAG) y ML estadístico/causal (Double ML, Causal Forest, análisis de supervivencia). Despliegues en producción sobre AWS y GCP con FastAPI, Docker y Airflow, y programación clínica (CDISC) para submissions ante la EMA."
+experience:
+  - id: "aiengineer_beway"
+    title:
+      en: "AI/ML Research Engineer"
+      es: "Ingeniero de Investigación en IA/ML"
+    company:
+      en: "BeWay (rejoined by invitation)"
+      es: "BeWay (reincorporación por invitación)"
+    period: "Jan 2026 - Present"
+    stack: "Python, R, OpenAI API, Gemini API, Hugging Face transformers, ChromaDB, FastAPI, React, TypeScript, AWS (S3), Docker, GitHub Actions."
+    highlights:
+      en:
+        - "**LLM-as-a-Judge for decision audits:** designed a judge that audits narrative–quantitative consistency in multi-criteria decision analyses (BOCR/AHP), mitigating position bias with per-replica shuffling and 5-replica majority voting."
+        - "Reached 91.7% unanimous verdicts across replicas over 1,272 comparisons, showing the judge was stable enough to trust at scale."
+        - "Flagged 19% of comparisons as narrative–quantitative contradictions and routed only those to targeted human review, replacing exhaustive manual checks."
+        - "Benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, refining the prompt over 5 human-reviewed iterations."
+        - "**RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25, RRF), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback)."
+        - "Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45. Generalized these statistics into the open-source package llm-judge-stats."
+        - "Reported failed hypotheses without post-hoc threshold changes: LLM–human quality scores correlated weakly (Spearman rho = 0.19, 95% CI -0.09 to 0.45); chunk-level citations cut the audited hallucination rate from 57.5% to 14.0%, still above the pre-registered 5%."
+        - "Shipped a React/TypeScript + FastAPI web app with live SSE progress for non-technical analysts, Dockerized, with pytest and CI (mypy, flake8)."
+      es:
+        - "**LLM-as-a-Judge para auditoría de decisiones:** diseñé un juez que audita la consistencia narrativo-cuantitativa en análisis de decisión multicriterio (BOCR/AHP), mitigando el sesgo de posición con barajado por réplica y voto mayoritario de 5 réplicas."
+        - "Logré un 91,7% de veredictos unánimes entre réplicas en 1.272 comparaciones, demostrando que el juez era lo bastante estable para usarlo a escala."
+        - "Detecté contradicciones narrativo-cuantitativas en el 19% de las comparaciones y derivé solo esas a revisión humana dirigida, sustituyendo la revisión manual exhaustiva."
+        - "Comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, refinando el prompt en 5 iteraciones con revisión humana."
+        - "**RAG evidence builder (PoC, desarrollador principal):** pipeline end-to-end con curación humana de fuentes: ingesta multiformato, puntuación de fuentes con LLM-as-a-Judge, recuperación híbrida (densa + BM25, RRF) y síntesis multiagente con citas obligatorias a nivel de chunk (orquestación con LangChain, Gemini API, Phi-3 local de respaldo)."
+        - "Preregistré el protocolo de evaluación (hipótesis confirmatorias vs. exploratorias, análisis de potencia, IC bootstrap, Benjamini-Hochberg): la selección de fuentes LLM–experto cumplió el criterio (F1 = 0,762 vs. umbral 0,70) tras detectar un bug de caché que producía un F1 falso de 0,45. Generalicé esta estadística en el paquete open source llm-judge-stats."
+        - "Reporté las hipótesis no cumplidas sin modificar umbrales a posteriori: la correlación LLM–humano en calidad fue débil (Spearman rho = 0,19, IC95% -0,09 a 0,45); las citas a nivel de chunk bajaron la tasa de alucinación auditada del 57,5% al 14,0%, aún por encima del 5% preregistrado."
+        - "Web app React/TypeScript + FastAPI (SSE) para analistas no técnicos, dockerizada, con pytest y CI."
+  - id: "aiml_daiichi"
+    title:
+      en: "AI/ML Specialist Data Scientist"
+      es: "Data Scientist Especialista AI/ML"
+    company:
+      en: "Daiichi-Sankyo (Contract)"
+      es: "Daiichi-Sankyo (Contrato)"
+    period: "Oct 2025 - Dec 2025"
+    stack: "Python, Google Cloud."
+    highlights:
+      en:
+        - "Led the discovery phase of a Causal AI engagement linking German environmental data to ~100,000 patients, screening hundreds of candidate drivers of patient outcomes with Double ML and Causal Forest."
+        - "Designed the causal analysis framework (confounder selection, estimation strategy) that set the methodology for the subsequent effect-estimation phase."
+        - "Built the data infrastructure and high-performance analytics scripts for Google Cloud deployment."
+      es:
+        - "Lideré la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest."
+        - "Diseñé el marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos."
+        - "Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud."
+  - id: "behavioral_ds_beway"
+    title:
+      en: "Behavioral Data Scientist"
+      es: "Data Scientist de Comportamiento"
+    company:
+      en: "BeWay"
+      es: "BeWay"
+    period: "Jun 2025 - Oct 2025"
+    stack: "R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git."
+    highlights:
+      en:
+        - "Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions."
+        - "Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase."
+      es:
+        - "Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas."
+        - "Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra."
+  - id: "ds_specialist_minsait"
+    title:
+      en: "Data Science Specialist"
+      es: "Especialista en Data Science"
+    company:
+      en: "Minsait"
+      es: "Minsait"
+    period: "Nov 2023 - Jun 2025"
+    stack: "R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI."
+    highlights:
+      en:
+        - "Built an enterprise OMOP-CDM data lake integrating clinical and operational sources from 3 major Madrid hospitals."
+        - "Owned RESTful ML/AI inference APIs with FastAPI, enabling embeddings, vector search, and LLM-powered analytics for downstream applications."
+        - "Deployed 100+ NLP/ML models and tools in production with Docker and Airflow, reducing manual handoffs."
+      es:
+        - "Construí un data lake OMOP-CDM empresarial integrando fuentes clínicas y operativas de 3 grandes hospitales de Madrid."
+        - "Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream."
+        - "Desplegué más de 100 modelos NLP/ML y herramientas en producción con Docker y Airflow, reduciendo handoffs manuales."
+  - id: "ds_tfs"
+    title:
+      en: "Data Scientist"
+      es: "Data Scientist"
+    company:
+      en: "TFS HealthScience"
+      es: "TFS HealthScience"
+    period: "Jun 2022 - May 2023"
+    stack: "R, SAS, Python, CDISC, OHDSI."
+    highlights:
+      en:
+        - "Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows."
+        - "Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, avoiding a new clinical trial, plus regulatory-ready statistical plans and study reports."
+      es:
+        - "Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM."
+        - "Entregué análisis comparativos con propensity score matching sobre real-world evidence (RWE) de 20.000 pacientes a lo largo de 7 años, evitando un nuevo ensayo clínico, con planes estadísticos e informes listos para regulación."
+  - id: "ds_animal_data"
+    title:
+      en: "Data Scientist"
+      es: "Data Scientist"
+    company:
+      en: "Animal Data Analytics (formerly PigCHAMP Pro Europa)"
+      es: "Animal Data Analytics (antes PigCHAMP Pro Europa)"
+    period: "Sep 2020 - Jun 2022"
+    description:
+      en: "Segovia-based provider of herd-management software, benchmarking, and data science services for the swine and animal health industry, serving international clients."
+      es: "Empresa de Segovia que ofrece software de gestión de granjas, benchmarking y servicios de data science para el sector porcino y de salud animal, con clientes internacionales."
+    stack: "R, Python, SAS, RMarkdown, PyTorch, TensorFlow, MongoDB."
+    highlights:
+      en:
+        - "Delivered analytics and ML solutions for 5+ international clients across clinical and commercial engagements, working remotely in English."
+        - "Led a 2-person team to build a regression model that reduced RMSE by 7% vs. the baseline model, with fully reproducible reporting in RMarkdown."
+        - "Co-authored peer-reviewed research as second author (*Porcine Health Management*, 2023), owning data curation and analysis: applied unsupervised ML (PAM clustering, silhouette-based model selection in R) to electronic-feeder data from 585 sows and 1,058 lactations, identifying 5 feeding patterns."
+        - "Quantified the effect of those feeding patterns on reproductive outcomes with GLMMs and non-parametric tests in SAS."
+      es:
+        - "Entregué soluciones de analítica y ML para más de 5 clientes internacionales en compromisos clínicos y comerciales, trabajando en remoto y en inglés."
+        - "Lideré un equipo de 2 personas para construir un modelo de regresión que redujo el RMSE un 7% frente al modelo base, con informes totalmente reproducibles en RMarkdown."
+        - "Segundo autor de investigación revisada por pares (*Porcine Health Management*, 2023), responsable de la curación y el análisis de datos: apliqué ML no supervisado (clustering PAM, selección de modelo por silhouette en R) a datos de comederos electrónicos de 585 cerdas y 1.058 lactaciones, identificando 5 patrones de alimentación."
+        - "Cuantifiqué el efecto de esos patrones sobre los resultados reproductivos con GLMMs y tests no paramétricos en SAS."
+projects:
+  - title: "llm-judge-stats"
+    url: "https://github.com/gondiam/llm-judge-stats"
+    tagline:
+      en: "Open-source Python package"
+      es: "Paquete Python open source"
+    highlights:
+      en:
+        - "Statistics to check whether an LLM judge can be trusted: Cohen's/Fleiss' kappa, ICC, F1/MCC with bootstrap CIs, sample-size planning, and position-bias shuffling; tests validated against published values."
+        - "Applied to the public MT-Bench human judgments: GPT-4 vs. human-majority kappa = 0.41 (95% CI 0.37-0.45) vs. human-human kappa of 0.50, with 15.8% position-inconsistent verdicts."
+      es:
+        - "Estadística para comprobar si un juez LLM es fiable: kappa de Cohen/Fleiss, ICC, F1/MCC con IC bootstrap, tamaño muestral y barajado contra el sesgo de posición; tests validados contra valores publicados."
+        - "Aplicado a los juicios humanos públicos de MT-Bench: kappa GPT-4 vs. mayoría humana = 0,41 (IC95% 0,37-0,45) frente a un kappa humano-humano de 0,50, con un 15,8% de veredictos inconsistentes por posición."
+  - title: "sft-dpo-eval"
+    url: "https://github.com/gondiam/sft-dpo-eval"
+    tagline:
+      en: "Pre-registered post-training study"
+      es: "Estudio preregistrado de post-entrenamiento"
+    highlights:
+      en:
+        - "Fine-tuned Qwen3-1.7B on PubMedQA with SFT followed by DPO (LoRA, TRL) on a free Kaggle T4 GPU, committing the analysis plan before any training run."
+        - "SFT raised accuracy from 38.6% to 71.7% (+33.1 pts, 95% CI 27.4–38.9). DPO added no gain (–1.0 pt) and was reported as a null result. An exploratory analysis traced a ~7-pt MMLU drop mainly to repetition loops."
+        - "Three seeds, paired comparisons with 95% CIs and Holm correction, run with llm-judge-stats."
+      es:
+        - "Fine-tuning de Qwen3-1.7B en PubMedQA con SFT seguido de DPO (LoRA, TRL) en una GPU T4 gratuita de Kaggle, fijando el plan de análisis antes de cualquier entrenamiento."
+        - "El SFT subió el acierto del 38,6% al 71,7% (+33,1 pts, IC95% 27,4–38,9). El DPO no aportó mejora (–1,0 pt) y se publicó como resultado nulo. Un análisis exploratorio atribuyó la caída de ~7 pts en MMLU principalmente a bucles de repetición."
+        - "Tres semillas, comparaciones pareadas con IC 95% y corrección de Holm, ejecutadas con llm-judge-stats."
+
+education:
+  primary:
+    - title:
+        en: "**MSc. Big Data & Data Science** | VIU (2025) · Thesis: Trading strategy optimization with Deep Learning & quantitative analysis"
+        es: "**Máster en Big Data & Data Science** | VIU (2025) · TFM: Optimización de estrategias de trading utilizando Deep Learning y Análisis Cuantitativo"
+      description:
+        en: "Advanced training in large-scale data processing, cloud architectures, and AI/ML systems."
+        es: "Formación avanzada en procesamiento de datos a gran escala, arquitecturas cloud y sistemas AI/ML."
+    - title:
+        en: "**BSc. Statistics** | UVa – Valladolid, Spain (2020)"
+        es: "**Grado en Estadística** | UVa – Valladolid, España (2020)"
+      description:
+        en: "Strong foundation in statistical modeling, probability theory, and quantitative methods."
+        es: "Sólida base en modelado estadístico, teoría de la probabilidad y métodos cuantitativos."
+
+
+certifications:
+  - title:
+      en: "AI Agents Intensive Course"
+      es: "Curso Intensivo de Agentes IA"
+    issuer: "Google x Kaggle"
+    year: "2025"
+    description:
+      en: "Hands-on training designing and deploying AI agent systems with LLMs, tools, memory, and retrieval."
+      es: "Entrenamiento práctico en diseño y despliegue de sistemas de agentes IA con LLMs, herramientas, memoria y recuperación."
+
+  - title:
+      en: "6.86x: Machine Learning with Python – From Linear Models to Deep Learning"
+      es: "6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning"
+    issuer: "MITx"
+    year: "2021"
+    description:
+      en: "Deep dive into linear models, deep learning, and reinforcement learning with hands-on Python projects."
+      es: "Profundización en modelos lineales, deep learning y aprendizaje por refuerzo con proyectos prácticos en Python."
+
+certifications_more:
+  en: "More certifications on"
+  es: "Más certificaciones en"
+
+
+skills:
+  - en: "**LLM Evaluation & Statistics:** LLM-as-a-Judge, bias mitigation, pre-registered evaluation protocols, power analysis, bootstrap CIs, inter-rater agreement (Cohen's kappa, ICC), Spearman, F1/MCC, Benjamini-Hochberg."
+    es: "**Evaluación de LLMs y Estadística:** LLM-as-a-Judge, mitigación de sesgos, protocolos preregistrados, análisis de potencia, IC bootstrap, acuerdo entre evaluadores (kappa de Cohen, ICC), Spearman, F1/MCC, Benjamini-Hochberg."
+  - en: "**GenAI & LLMs:** RAG pipelines, hybrid retrieval (dense + BM25, RRF), multi-agent pipelines, embeddings, vector search (ChromaDB), prompt engineering, LangChain, LLM-based architectures, LLM fine-tuning (SFT, DPO, LoRA, TRL)."
+    es: "**GenAI & LLMs:** Pipelines RAG, recuperación híbrida (densa + BM25, RRF), pipelines multiagente, embeddings, búsqueda vectorial (ChromaDB), ingeniería de prompts, LangChain, arquitecturas basadas en LLMs, fine-tuning de LLMs (SFT, DPO, LoRA, TRL)."
+  - en: "**Languages & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, Causal ML (Causal Forest, Double ML), survival analysis, predictive modeling."
+    es: "**Lenguajes & ML:** Python, R, SQL, SAS, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, ML Causal (Causal Forest, Double ML), análisis de supervivencia, modelado predictivo."
+  - en: "**MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD."
+    es: "**MLOps & Cloud:** Docker, Apache Airflow, AWS, GCP, Git (GitHub, GitLab), CI/CD."
+  - en: "**Data Engineering & Databases:** ETL pipelines, MySQL, PostgreSQL, MongoDB."
+    es: "**Datos & BBDD:** ETL, MySQL, PostgreSQL, MongoDB."
+  - en: "**Clinical Data Standards:** CDISC (SDTM, ADaM), OMOP-CDM (OHDSI)."
+    es: "**Estándares de datos clínicos:** CDISC (SDTM, ADaM), OMOP-CDM (OHDSI)."
+  - en: "**AI-Assisted Development:** Claude Code, Cursor, Google Antigravity, Warp."
+    es: "**Desarrollo Asistido por IA:** Claude Code, Cursor, Google Antigravity, Warp."
+  - en: "**Languages:** Spanish (Native), English (professional; working language for 5+ years in international projects)."
+    es: "**Idiomas:** Español (Nativo), Inglés (profesional; idioma de trabajo 5+ años en proyectos internacionales)."
+
+footer:
+  note:
+    en: "References available upon request."
+    es: "Referencias disponibles bajo petición."

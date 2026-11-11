@@ -1,0 +1,65 @@
+# {{ contact.name }}
+**{{ titles[lang] }}**
+
+{{ availability[lang] }}
+
+[gdiazamor.ds@gmail.com](mailto:{{ contact.email }}) | [+34 693 29 97 47](tel:{{ contact.phone }})\
+[linkedin.com/in/gdiazamor]({{ contact.linkedin }}) | [github.com/gondiam]({{ contact.github }}) | [gondiam.github.io/Gonzalo_Portfolio]({{ contact.website }})
+
+
+
+## {{ headers.profile[lang] }}
+
+{{ profile[lang] }}
+
+
+## {{ headers.experience[lang] }}
+
+{% for job in experience %}
+### {{ job.title[lang] }}
+**{{ job.company[lang] }}** | *{{ job.period[lang] if job.period is mapping else job.period }}* | {{ 'Remote' if lang == 'en' else 'Remoto' }}
+{% if job.description %}
+*{{ job.description[lang] }}*
+{% endif %}
+
+{% for hl in job.highlights[lang] %}
+*   {{ hl }}
+{% endfor %}
+{% if job.stack %}
+*Tech stack:* {{ job.stack }}
+{% endif %}
+{% endfor %}
+
+
+## {{ headers.projects[lang] }}
+
+{% for p in projects %}
+**{{ p.title }}** | *{{ p.tagline[lang] }}* | [{{ p.url | replace('https://', '') }}]({{ p.url }})
+
+{% for hl in p.highlights[lang] %}
+*   {{ hl }}
+{% endfor %}
+{% endfor %}
+
+## {{ headers.education[lang] }}
+
+{% for edu in education.primary %}
+*   {{ edu.title[lang] }}
+{%- endfor %}
+
+## {{ headers.certifications[lang] }}
+
+{% for cert in certifications %}
+*   **{{ cert.title[lang] }}** — {{ cert.issuer }} *({{ cert.year }})*
+{%- endfor %}
+*   *{{ certifications_more[lang] }} [LinkedIn]({{ contact.linkedin }}).*
+
+
+
+
+
+## {{ headers.skills[lang] }}
+
+{% for skill in skills %}
+*   {{ skill[lang] }}
+{%- endfor %}
