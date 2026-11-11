@@ -108,7 +108,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 *   Led a 2-person team to build a regression model that reduced RMSE by 7% vs. the baseline model, with fully reproducible reporting in RMarkdown.
 
-*   Co-authored peer-reviewed research as second author (*Porcine Health Management*, 2023), owning data curation and analysis: applied unsupervised ML (PAM clustering, silhouette-based model selection in R) to electronic-feeder data from 585 sows and 1,058 lactations, identifying 5 feeding patterns.
+*   Co-authored peer-reviewed research as second author (“Feed intake patterns of modern genetics lactating sows”, *Porcine Health Management*, 2023), owning data curation and analysis: applied unsupervised ML (PAM clustering, silhouette-based model selection in R) to electronic-feeder data from 585 sows and 1,058 lactations, identifying 5 feeding patterns.
 
 *   Quantified the effect of those feeding patterns on reproductive outcomes with GLMMs and non-parametric tests in SAS.
 

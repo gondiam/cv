@@ -108,7 +108,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Lideré un equipo de 2 personas para construir un modelo de regresión que redujo el RMSE un 7% frente al modelo base, con informes totalmente reproducibles en RMarkdown.
 
-*   Segundo autor de investigación revisada por pares (*Porcine Health Management*, 2023), responsable de la curación y el análisis de datos: apliqué ML no supervisado (clustering PAM, selección de modelo por silhouette en R) a datos de comederos electrónicos de 585 cerdas y 1.058 lactaciones, identificando 5 patrones de alimentación.
+*   Segundo autor de investigación revisada por pares (“Feed intake patterns of modern genetics lactating sows”, *Porcine Health Management*, 2023), responsable de la curación y el análisis de datos: apliqué ML no supervisado (clustering PAM, selección de modelo por silhouette en R) a datos de comederos electrónicos de 585 cerdas y 1.058 lactaciones, identificando 5 patrones de alimentación.
 
 *   Cuantifiqué el efecto de esos patrones sobre los resultados reproductivos con GLMMs y tests no paramétricos en SAS.
 
