@@ -126,7 +126,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Estadística para comprobar si un juez LLM es fiable: kappa de Cohen/Fleiss, ICC, F1/MCC con IC bootstrap, tamaño muestral y barajado contra el sesgo de posición; tests validados contra valores publicados.
 
-*   Aplicado a los juicios humanos públicos de MT-Bench: kappa GPT-4 vs. mayoría humana = 0,41 (IC95% 0,37-0,45) frente a un kappa humano-humano de 0,50, con un 15,8% de veredictos inconsistentes por posición.
+*   Aplicado a los juicios humanos públicos de MT-Bench (1.814 ítems): kappa GPT-4 vs. mayoría humana = 0,51 (IC95% 0,47-0,54), al nivel del kappa humano-humano de 0,50, con un 15,8% de veredictos inconsistentes por posición. Los mismos datos dan kappa = 0,38 con otro orden de etiquetas.
 
 
 **sft-dpo-eval** | *Estudio preregistrado de post-entrenamiento* | [github.com/gondiam/sft-dpo-eval](https://github.com/gondiam/sft-dpo-eval)
