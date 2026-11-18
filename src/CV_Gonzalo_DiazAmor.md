@@ -48,9 +48,9 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 
-*   Lideré la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest.
+*   Participé en la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest.
 
-*   Diseñé el marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos.
+*   Contribuí al marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos.
 
 *   Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud.
 
@@ -93,7 +93,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM.
 
-*   Entregué análisis comparativos con propensity score matching sobre real-world evidence (RWE) de 20.000 pacientes a lo largo de 7 años, evitando un nuevo ensayo clínico, con planes estadísticos e informes listos para regulación.
+*   Entregué análisis comparativos con propensity score matching sobre real-world evidence (RWE) de 20.000 pacientes a lo largo de 7 años, para justificar ante la FDA el uso de evidencia de vida real en lugar de un nuevo ensayo clínico, con planes estadísticos e informes listos para regulación.
 
 
 *Tech stack:* R, SAS, Python, CDISC, OHDSI.
