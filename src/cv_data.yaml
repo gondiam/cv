@@ -37,8 +37,8 @@ headers:
     en: "Technical Skills"
     es: "Habilidades Técnicas"
 profile:
-  en: "Data Scientist with 6 years across pharma, healthtech, and mobility, specialized in LLM evaluation (LLM-as-a-Judge, RAG) and statistical/causal ML (Double ML, Causal Forest, survival analysis). Production deployments on AWS and GCP with FastAPI, Docker, and Airflow, plus clinical programming (CDISC) for regulatory submissions."
-  es: "Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en evaluación de LLMs (LLM-as-a-Judge, RAG) y ML estadístico/causal (Double ML, Causal Forest, análisis de supervivencia). Despliegues en producción sobre AWS y GCP con FastAPI, Docker y Airflow, y programación clínica (CDISC) para submissions regulatorias."
+  en: "Data Scientist with 6 years across pharma, healthtech, and mobility, specialized in LLM evaluation (LLM-as-a-Judge, RAG) and statistical/causal ML (Double ML, Causal Forest, survival analysis). Production deployments on AWS and GCP with FastAPI, Docker, and Airflow, plus clinical programming (CDISC) for EMA submissions."
+  es: "Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en evaluación de LLMs (LLM-as-a-Judge, RAG) y ML estadístico/causal (Double ML, Causal Forest, análisis de supervivencia). Despliegues en producción sobre AWS y GCP con FastAPI, Docker y Airflow, y programación clínica (CDISC) para submissions ante la EMA."
 experience:
   - id: "aiengineer_beway"
     title:
@@ -134,10 +134,10 @@ experience:
     highlights:
       en:
         - "Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows."
-        - "Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, supporting the case to the FDA for using real-world evidence instead of a new clinical trial, plus regulatory-ready statistical plans and study reports."
+        - "Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, supporting the case to the EMA for using real-world evidence instead of a new clinical trial, plus regulatory-ready statistical plans and study reports."
       es:
         - "Actué como líder de programación para un estudio de Fase IV, validando workflows SDTM y ADaM."
-        - "Entregué análisis comparativos con propensity score matching sobre real-world evidence (RWE) de 20.000 pacientes a lo largo de 7 años, para justificar ante la FDA el uso de evidencia de vida real en lugar de un nuevo ensayo clínico, con planes estadísticos e informes listos para regulación."
+        - "Entregué análisis comparativos con propensity score matching sobre real-world evidence (RWE) de 20.000 pacientes a lo largo de 7 años, para justificar ante la EMA el uso de evidencia de vida real en lugar de un nuevo ensayo clínico, con planes estadísticos e informes listos para regulación."
   - id: "ds_animal_data"
     title:
       en: "Data Scientist"
