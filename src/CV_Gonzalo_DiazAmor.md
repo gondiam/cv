@@ -42,7 +42,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 ### Data Scientist Especialista AI/ML
-**Daiichi-Sankyo (Contrato)** | *Oct 2025 - Dec 2025* | Remoto
+**Daiichi-Sankyo (Contrato)** | *Nov 2025 - Dec 2025* | Remoto
 
 
 
@@ -61,7 +61,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 
-*   Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
+*   Di soporte a un análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas.
 
 *   Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra.
 
