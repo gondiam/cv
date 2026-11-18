@@ -75,7 +75,7 @@ experience:
     company:
       en: "Daiichi-Sankyo (Contract)"
       es: "Daiichi-Sankyo (Contrato)"
-    period: "Oct 2025 - Dec 2025"
+    period: "Nov 2025 - Dec 2025"
     stack: "Python, Google Cloud."
     highlights:
       en:
@@ -97,10 +97,10 @@ experience:
     stack: "R, Python, Quarto, AWS (S3, Athena, Redshift), PostgreSQL, Git."
     highlights:
       en:
-        - "Led Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions."
+        - "Supported a Geo Data Science analysis across hundreds of features to measure product penetration over 60M+ tickets and inform strategic decisions."
         - "Owned survival and funnel analytics on 10k+ customers to identify conversion barriers and accelerate time-to-first-purchase."
       es:
-        - "Lideré análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas."
+        - "Di soporte a un análisis de Geo Data Science sobre cientos de variables para medir la penetración del producto en más de 60M de tickets e informar decisiones estratégicas."
         - "Gestioné análisis de supervivencia y funnel en más de 10k clientes para identificar barreras de conversión y acelerar el tiempo hasta la primera compra."
   - id: "ds_specialist_minsait"
     title:
