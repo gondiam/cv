@@ -48,7 +48,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 
 
-*   Participé en la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest.
+*   Participé en la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando ~200 posibles impulsores de los resultados clínicos con Double ML y Causal Forest.
 
 *   Contribuí al marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos.
 
@@ -80,7 +80,7 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream.
 
-*   Desplegué más de 100 modelos NLP/ML y herramientas en producción con Docker y Airflow, reduciendo handoffs manuales.
+*   Desplegué más de 100 componentes con Docker y Airflow para ELADAIS, una plataforma federada de datos sanitarios financiada por NextGenerationEU: preprocesado de datos, modelos de ML supervisado y no supervisado, y métodos de anonimización.
 
 
 *Tech stack:* R, Python, Docker, FastAPI, PowerShell, GitLab, MySQL, PostgreSQL, Spark, Airflow, OHDSI.
