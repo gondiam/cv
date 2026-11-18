@@ -10,7 +10,7 @@ Palencia, Spain (CET) · Remote · Open to EOR or contractor
 
 ## Professional Summary
 
-Data Scientist with 6 years across pharma, healthtech, and mobility, specialized in LLM evaluation (LLM-as-a-Judge, RAG) and statistical/causal ML (Double ML, Causal Forest, survival analysis). Production deployments on AWS and GCP with FastAPI, Docker, and Airflow, plus clinical programming (CDISC) for regulatory submissions.
+Data Scientist with 6 years across pharma, healthtech, and mobility, specialized in LLM evaluation (LLM-as-a-Judge, RAG) and statistical/causal ML (Double ML, Causal Forest, survival analysis). Production deployments on AWS and GCP with FastAPI, Docker, and Airflow, plus clinical programming (CDISC) for EMA submissions.
 
 
 ## Relevant Experience
@@ -93,7 +93,7 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 *   Served as programming lead for a Phase IV study, validating SDTM and ADaM workflows.
 
-*   Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, supporting the case to the FDA for using real-world evidence instead of a new clinical trial, plus regulatory-ready statistical plans and study reports.
+*   Delivered propensity-score-matched comparative analyses on real-world evidence (RWE) from 20,000 patients over 7 years, supporting the case to the EMA for using real-world evidence instead of a new clinical trial, plus regulatory-ready statistical plans and study reports.
 
 
 *Tech stack:* R, SAS, Python, CDISC, OHDSI.
