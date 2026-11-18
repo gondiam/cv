@@ -81,11 +81,11 @@ experience:
     stack: "Python, Google Cloud."
     highlights:
       en:
-        - "Worked on the discovery phase of a Causal AI engagement linking German environmental data to ~100,000 patients, screening hundreds of candidate drivers of patient outcomes with Double ML and Causal Forest."
+        - "Worked on the discovery phase of a Causal AI engagement linking German environmental data to ~100,000 patients, screening ~200 candidate drivers of patient outcomes with Double ML and Causal Forest."
         - "Contributed to the causal analysis framework (confounder selection, estimation strategy) that set the methodology for the subsequent effect-estimation phase."
         - "Built the data infrastructure and high-performance analytics scripts for Google Cloud deployment."
       es:
-        - "Participé en la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando cientos de posibles impulsores de los resultados clínicos con Double ML y Causal Forest."
+        - "Participé en la fase de discovery de un proyecto de Causal AI cruzando datos medioambientales de Alemania con ~100.000 pacientes, cribando ~200 posibles impulsores de los resultados clínicos con Double ML y Causal Forest."
         - "Contribuí al marco de análisis causal (selección de confusores, estrategia de estimación) que fijó la metodología de la fase posterior de estimación de efectos."
         - "Construí la infraestructura de datos y scripts analíticos de alto rendimiento para despliegue en Google Cloud."
   - id: "behavioral_ds_beway"
@@ -117,11 +117,11 @@ experience:
       en:
         - "Built an enterprise OMOP-CDM data lake integrating clinical and operational sources from 3 major Madrid hospitals."
         - "Owned RESTful ML/AI inference APIs with FastAPI, enabling embeddings, vector search, and LLM-powered analytics for downstream applications."
-        - "Deployed 100+ NLP/ML models and tools in production with Docker and Airflow, reducing manual handoffs."
+        - "Deployed 100+ components with Docker and Airflow for ELADAIS, a NextGenerationEU-funded federated health-data platform: data preprocessing, supervised and unsupervised ML models, and anonymization methods."
       es:
         - "Construí un data lake OMOP-CDM empresarial integrando fuentes clínicas y operativas de 3 grandes hospitales de Madrid."
         - "Gestioné APIs RESTful de inferencia ML/AI con FastAPI, habilitando embeddings, búsqueda vectorial y analítica LLM para aplicaciones downstream."
-        - "Desplegué más de 100 modelos NLP/ML y herramientas en producción con Docker y Airflow, reduciendo handoffs manuales."
+        - "Desplegué más de 100 componentes con Docker y Airflow para ELADAIS, una plataforma federada de datos sanitarios financiada por NextGenerationEU: preprocesado de datos, modelos de ML supervisado y no supervisado, y métodos de anonimización."
   - id: "ds_tfs"
     title:
       en: "Data Scientist"
