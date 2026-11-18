@@ -188,6 +188,18 @@ projects:
         - "Fine-tuning de Qwen3-1.7B en PubMedQA con SFT seguido de DPO (LoRA, TRL) en una GPU T4 gratuita de Kaggle, fijando el plan de análisis antes de cualquier entrenamiento."
         - "El SFT subió el acierto del 38,6% al 71,7% (+33,1 pts, IC95% 27,4–38,9). El DPO no aportó mejora (–1,0 pt) y se publicó como resultado nulo. Un análisis exploratorio atribuyó la caída de ~7 pts en MMLU principalmente a bucles de repetición."
         - "Tres semillas, comparaciones pareadas con IC 95% y corrección de Holm, ejecutadas con llm-judge-stats."
+  - title: "right-sizing-noninferiority"
+    url: "https://github.com/gondiam/right-sizing-noninferiority"
+    tagline:
+      en: "Pre-registered non-inferiority study"
+      es: "Estudio preregistrado de no inferioridad"
+    highlights:
+      en:
+        - "Tested whether a cheaper LLM can replace a larger one as a clinical-style non-inferiority trial (ICH E9/E10): margins fixed before the test run, Qwen3 1.7B–8B on 1,273 MedQA items, Holm-adjusted."
+        - "No cheaper option was shown non-inferior: 4B vs. 8B –9.2 pts (95% CI –12.0 to –6.4); 4-bit quantization –3.3 pts and a confidence cascade –2.4 pts, both measurably worse. A 1.7B sensitivity control confirmed the setup tells models apart."
+      es:
+        - "Comprobé si un LLM más barato puede sustituir a uno mayor como un ensayo clínico de no inferioridad (ICH E9/E10): márgenes fijados antes del test, Qwen3 de 1,7B a 8B en 1.273 preguntas de MedQA, con corrección de Holm."
+        - "Ninguna opción barata resultó no inferior: 4B frente a 8B –9,2 pts (IC95% –12,0 a –6,4); la cuantización a 4 bits –3,3 pts y una cascada por confianza –2,4 pts, ambas peores de forma medible. Un control de sensibilidad con el 1,7B confirmó que el diseño distingue modelos."
 
 education:
   primary:
