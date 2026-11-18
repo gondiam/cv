@@ -55,6 +55,7 @@ experience:
         - "Reached 91.7% unanimous verdicts across replicas over 1,272 comparisons, showing the judge was stable enough to trust at scale."
         - "Flagged 19% of comparisons as narrative–quantitative contradictions and routed only those to targeted human review, replacing exhaustive manual checks."
         - "Benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, refining the prompt over 5 human-reviewed iterations."
+        - "Co-authored the chapter on this system, *Choice Engine: An LLM and AHP-Powered Behavioral Science Tool* (Behavioral Economics Guide 2026), leading its preregistered evaluation and LLM judge: 17 of 18 confirmatory tests significant replicating Spence and Kahneman & Tversky."
         - "**RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25, RRF), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback)."
         - "Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45. Generalized these statistics into the open-source package llm-judge-stats."
         - "Reported failed hypotheses without post-hoc threshold changes: LLM–human quality scores correlated weakly (Spearman rho = 0.19, 95% CI -0.09 to 0.45); chunk-level citations cut the audited hallucination rate from 57.5% to 14.0%, still above the pre-registered 5%."
@@ -64,6 +65,7 @@ experience:
         - "Logré un 91,7% de veredictos unánimes entre réplicas en 1.272 comparaciones, demostrando que el juez era lo bastante estable para usarlo a escala."
         - "Detecté contradicciones narrativo-cuantitativas en el 19% de las comparaciones y derivé solo esas a revisión humana dirigida, sustituyendo la revisión manual exhaustiva."
         - "Comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, refinando el prompt en 5 iteraciones con revisión humana."
+        - "Coautor del capítulo sobre este sistema, *Choice Engine: An LLM and AHP-Powered Behavioral Science Tool* (Behavioral Economics Guide 2026), responsable de la evaluación preregistrada y del juez LLM: 17 de 18 tests confirmatorios significativos al replicar a Spence y a Kahneman y Tversky."
         - "**RAG evidence builder (PoC, desarrollador principal):** pipeline end-to-end con curación humana de fuentes: ingesta multiformato, puntuación de fuentes con LLM-as-a-Judge, recuperación híbrida (densa + BM25, RRF) y síntesis multiagente con citas obligatorias a nivel de chunk (orquestación con LangChain, Gemini API, Phi-3 local de respaldo)."
         - "Preregistré el protocolo de evaluación (hipótesis confirmatorias vs. exploratorias, análisis de potencia, IC bootstrap, Benjamini-Hochberg): la selección de fuentes LLM–experto cumplió el criterio (F1 = 0,762 vs. umbral 0,70) tras detectar un bug de caché que producía un F1 falso de 0,45. Generalicé esta estadística en el paquete open source llm-judge-stats."
         - "Reporté las hipótesis no cumplidas sin modificar umbrales a posteriori: la correlación LLM–humano en calidad fue débil (Spearman rho = 0,19, IC95% -0,09 a 0,45); las citas a nivel de chunk bajaron la tasa de alucinación auditada del 57,5% al 14,0%, aún por encima del 5% preregistrado."
@@ -221,10 +223,6 @@ certifications:
     description:
       en: "Deep dive into linear models, deep learning, and reinforcement learning with hands-on Python projects."
       es: "Profundización en modelos lineales, deep learning y aprendizaje por refuerzo con proyectos prácticos en Python."
-
-certifications_more:
-  en: "More certifications on"
-  es: "Más certificaciones en"
 
 
 skills:
