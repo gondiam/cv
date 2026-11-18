@@ -29,6 +29,8 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   Comparé 36 ejecuciones con 2 modelos (GPT-4o, GPT-5.2) y 3 temperaturas, refinando el prompt en 5 iteraciones con revisión humana.
 
+*   Coautor del capítulo sobre este sistema, *Choice Engine: An LLM and AHP-Powered Behavioral Science Tool* (Behavioral Economics Guide 2026), responsable de la evaluación preregistrada y del juez LLM: 17 de 18 tests confirmatorios significativos al replicar a Spence y a Kahneman y Tversky.
+
 *   **RAG evidence builder (PoC, desarrollador principal):** pipeline end-to-end con curación humana de fuentes: ingesta multiformato, puntuación de fuentes con LLM-as-a-Judge, recuperación híbrida (densa + BM25, RRF) y síntesis multiagente con citas obligatorias a nivel de chunk (orquestación con LangChain, Gemini API, Phi-3 local de respaldo).
 
 *   Preregistré el protocolo de evaluación (hipótesis confirmatorias vs. exploratorias, análisis de potencia, IC bootstrap, Benjamini-Hochberg): la selección de fuentes LLM–experto cumplió el criterio (F1 = 0,762 vs. umbral 0,70) tras detectar un bug de caché que producía un F1 falso de 0,45. Generalicé esta estadística en el paquete open source llm-judge-stats.
@@ -139,6 +141,14 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 *   Tres semillas, comparaciones pareadas con IC 95% y corrección de Holm, ejecutadas con llm-judge-stats.
 
 
+**right-sizing-noninferiority** | *Estudio preregistrado de no inferioridad* | [github.com/gondiam/right-sizing-noninferiority](https://github.com/gondiam/right-sizing-noninferiority)
+
+
+*   Comprobé si un LLM más barato puede sustituir a uno mayor como un ensayo clínico de no inferioridad (ICH E9/E10): márgenes fijados antes del test, Qwen3 de 1,7B a 8B en 1.273 preguntas de MedQA, con corrección de Holm.
+
+*   Ninguna opción barata resultó no inferior: 4B frente a 8B –9,2 pts (IC95% –12,0 a –6,4); la cuantización a 4 bits –3,3 pts y una cascada por confianza –2,4 pts, ambas peores de forma medible. Un control de sensibilidad con el 1,7B confirmó que el diseño distingue modelos.
+
+
 
 ## Educación
 
@@ -151,7 +161,6 @@ Data Scientist con 6 años en pharma, healthtech y movilidad, especializado en e
 
 *   **Curso Intensivo de Agentes IA** — Google x Kaggle *(2025)*
 *   **6.86x: Machine Learning con Python – De Modelos Lineales a Deep Learning** — MITx *(2021)*
-*   *Más certificaciones en [LinkedIn](https://www.linkedin.com/in/gdiazamor/).*
 
 
 

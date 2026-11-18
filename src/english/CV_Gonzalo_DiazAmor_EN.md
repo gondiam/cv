@@ -29,6 +29,8 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 *   Benchmarked 36 runs across 2 models (GPT-4o, GPT-5.2) and 3 temperatures, refining the prompt over 5 human-reviewed iterations.
 
+*   Co-authored the chapter on this system, *Choice Engine: An LLM and AHP-Powered Behavioral Science Tool* (Behavioral Economics Guide 2026), leading its preregistered evaluation and LLM judge: 17 of 18 confirmatory tests significant replicating Spence and Kahneman & Tversky.
+
 *   **RAG evidence builder (PoC, lead developer):** end-to-end pipeline with human-in-the-loop source curation: multi-format ingestion, LLM-as-a-Judge source scoring, hybrid retrieval (dense + BM25, RRF), and multi-agent synthesis with mandatory chunk-level citations (LangChain orchestration, Gemini API, local Phi-3 fallback).
 
 *   Pre-registered the evaluation protocol (confirmatory vs. exploratory hypotheses, power analysis, bootstrap CIs, Benjamini-Hochberg): LLM–expert source selection met the criterion (F1 = 0.762 vs. 0.70 threshold) after I caught a caching bug that produced a spurious F1 = 0.45. Generalized these statistics into the open-source package llm-judge-stats.
@@ -139,6 +141,14 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 *   Three seeds, paired comparisons with 95% CIs and Holm correction, run with llm-judge-stats.
 
 
+**right-sizing-noninferiority** | *Pre-registered non-inferiority study* | [github.com/gondiam/right-sizing-noninferiority](https://github.com/gondiam/right-sizing-noninferiority)
+
+
+*   Tested whether a cheaper LLM can replace a larger one as a clinical-style non-inferiority trial (ICH E9/E10): margins fixed before the test run, Qwen3 1.7B–8B on 1,273 MedQA items, Holm-adjusted.
+
+*   No cheaper option was shown non-inferior: 4B vs. 8B –9.2 pts (95% CI –12.0 to –6.4); 4-bit quantization –3.3 pts and a confidence cascade –2.4 pts, both measurably worse. A 1.7B sensitivity control confirmed the setup tells models apart.
+
+
 
 ## Education
 
@@ -151,7 +161,6 @@ Data Scientist with 6 years across pharma, healthtech, and mobility, specialized
 
 *   **AI Agents Intensive Course** — Google x Kaggle *(2025)*
 *   **6.86x: Machine Learning with Python – From Linear Models to Deep Learning** — MITx *(2021)*
-*   *More certifications on [LinkedIn](https://www.linkedin.com/in/gdiazamor/).*
 
 
 
